@@ -1,0 +1,4 @@
+Test_7F478737223C4B69 As AppTest:
+    OnTestComplete: =A
+    OnTestStart: =Set(testResult, JSON(TestCaseInfo,JSONFormat.Compact))
+

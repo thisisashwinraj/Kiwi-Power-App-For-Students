@@ -1,0 +1,407 @@
+attendancePage As screen:
+
+    Icon1_16 As icon.Add:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =50
+        Icon: =Icon.Information
+        Width: =50
+        X: =40
+        Y: =45
+        ZIndex: =1
+
+    Icon1_17 As icon.Add:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        Height: =50
+        Icon: =Icon.Reset
+        OnSelect: =Navigate(homePage, ScreenTransition.Fade)
+        Width: =50
+        X: =545
+        Y: =45
+        ZIndex: =2
+
+    Label5_9 As label:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =75
+        Size: =28
+        Text: ="Attendance Records"
+        Width: =525
+        X: =40
+        Y: =148
+        ZIndex: =3
+
+    Label5_10 As label:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =58
+        Size: =28
+        Text: ="Every school day counts"
+        Width: =570
+        X: =40
+        Y: =204
+        ZIndex: =4
+
+    Button8_28 As button:
+        DisplayMode: =DisplayMode.View
+        Fill: =RGBA(209, 251, 234, 1)
+        Height: =177
+        Size: =24
+        Text: =""
+        Width: =150
+        X: =245
+        Y: =441
+        ZIndex: =5
+
+    Button8_27 As button:
+        DisplayMode: =DisplayMode.View
+        Fill: =RGBA(253, 237, 210, 1)
+        Height: =177
+        OnSelect: =Navigate(calendarPage, ScreenTransition.Fade)
+        Size: =24
+        Text: =""
+        Width: =150
+        X: =40
+        Y: =438
+        ZIndex: =6
+
+    Button8_29 As button:
+        DisplayMode: =DisplayMode.View
+        Fill: =RGBA(227, 213, 254, 1)
+        Height: =177
+        Size: =24
+        Text: =""
+        Width: =150
+        X: =461
+        Y: =441
+        ZIndex: =7
+
+    Label9_30 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Height: =42
+        OnSelect: =Navigate(calendarPage, ScreenTransition.Fade)
+        Text: ="Graphics"
+        Width: =149
+        X: =41
+        Y: =562
+        ZIndex: =20
+
+    Label9_28 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Semibold
+        Height: =38
+        OnSelect: =Navigate(calendarPage, ScreenTransition.Fade)
+        Size: =11
+        Text: ="Computer"
+        Width: =149
+        X: =41
+        Y: =545
+        ZIndex: =21
+
+    Label9_31 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Height: =42
+        Text: ="Systems"
+        X: =245
+        Y: =562
+        ZIndex: =22
+
+    Label9_29 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Semibold
+        Height: =38
+        Size: =11
+        Text: ="Embedded"
+        X: =245
+        Y: =545
+        ZIndex: =23
+
+    Label9_32 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Height: =42
+        Text: ="Engineering"
+        Width: =148
+        X: =462
+        Y: =562
+        ZIndex: =24
+
+    Label9_27 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Semibold
+        Height: =36
+        Size: =11
+        Text: ="Software"
+        Width: =149
+        X: =461
+        Y: =545
+        ZIndex: =25
+
+    TextSearchBox1_3 As text:
+        AccessibleLabel: ="Search people or add email address. At least one recipient is required for a successful submission."
+        BorderColor: =RGBA(48, 48, 48, 1)
+        Default: =""
+        Height: =70
+        HintText: ="Search for upcomin events"
+        PaddingLeft: =70
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Size: =21
+        Width: =571
+        X: =40
+        Y: =314
+        ZIndex: =26
+
+    Icon2_3 As icon.Add:
+        Color: =RGBA(69, 69, 69, 1)
+        Height: =35
+        Icon: =Icon.Search
+        Width: =35
+        X: =62
+        Y: =334
+        ZIndex: =27
+
+    Icon3_3 As icon.Add:
+        Color: =RGBA(69, 69, 69, 1)
+        Height: =35
+        Icon: =Icon.Microphone
+        Width: =35
+        X: =543
+        Y: =334
+        ZIndex: =28
+
+    Button8_33 As button:
+        DisplayMode: =DisplayMode.View
+        Fill: =RGBA(254, 213, 220, 1)
+        Height: =177
+        Size: =24
+        Text: =""
+        Width: =150
+        X: =245
+        Y: =678
+        ZIndex: =38
+
+    Button8_34 As button:
+        DisplayMode: =DisplayMode.View
+        Fill: =RGBA(213, 222, 254, 1)
+        Height: =177
+        OnSelect: =Navigate(calendarPage, ScreenTransition.Fade)
+        Size: =24
+        Text: =""
+        Width: =150
+        X: =41
+        Y: =675
+        ZIndex: =39
+
+    Button8_35 As button:
+        DisplayMode: =DisplayMode.View
+        Fill: =RGBA(218, 252, 207, 1)
+        Height: =177
+        Size: =24
+        Text: =""
+        Width: =150
+        X: =462
+        Y: =678
+        ZIndex: =40
+
+    Label9_33 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Height: =42
+        OnSelect: =Navigate(calendarPage, ScreenTransition.Fade)
+        Text: ="Systems"
+        Width: =149
+        X: =41
+        Y: =799
+        ZIndex: =47
+
+    Label9_34 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Semibold
+        Height: =38
+        OnSelect: =Navigate(calendarPage, ScreenTransition.Fade)
+        Size: =11
+        Text: ="Distributed"
+        Width: =149
+        X: =41
+        Y: =782
+        ZIndex: =48
+
+    Label9_35 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Height: =42
+        Text: ="Systems"
+        Width: =111
+        X: =265
+        Y: =799
+        ZIndex: =49
+
+    Label9_36 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Semibold
+        Height: =38
+        Size: =11
+        Text: ="Multimedia"
+        Width: =111
+        X: =265
+        Y: =782
+        ZIndex: =50
+
+    Label9_37 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Height: =42
+        Text: ="with Python"
+        X: =462
+        Y: =799
+        ZIndex: =51
+
+    Label9_38 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Semibold
+        Height: =38
+        Size: =11
+        Text: ="Programming"
+        X: =462
+        Y: =781
+        ZIndex: =52
+
+    Button8_30 As button:
+        DisplayMode: =DisplayMode.View
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        Size: =24
+        Text: =""
+        Width: =75
+        X: =283
+        Y: =464
+        ZIndex: =53
+
+    Button8_31 As button:
+        DisplayMode: =DisplayMode.View
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        Size: =24
+        Text: =""
+        Width: =75
+        X: =498
+        Y: =464
+        ZIndex: =54
+
+    Button8_32 As button:
+        DisplayMode: =DisplayMode.View
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        Size: =24
+        Text: =""
+        Width: =75
+        X: =77
+        Y: =464
+        ZIndex: =55
+
+    Button8_36 As button:
+        DisplayMode: =DisplayMode.View
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        Size: =24
+        Text: =""
+        Width: =75
+        X: =78
+        Y: =701
+        ZIndex: =56
+
+    Button8_37 As button:
+        DisplayMode: =DisplayMode.View
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        Size: =24
+        Text: =""
+        Width: =75
+        X: =283
+        Y: =701
+        ZIndex: =57
+
+    Button8_38 As button:
+        DisplayMode: =DisplayMode.View
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =75
+        Size: =24
+        Text: =""
+        Width: =75
+        X: =498
+        Y: =701
+        ZIndex: =58
+
+    Label19 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Height: =75
+        Size: =21
+        Text: =LookUp(Attendance, Title=UserEmail, Sub1_Attendance)
+        Width: =73
+        X: =80
+        Y: =464
+        ZIndex: =59
+
+    Label19_1 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Height: =74
+        Size: =21
+        Text: =LookUp(Attendance, Title=UserEmail, Sub2_Attendance)
+        Width: =73
+        X: =284
+        Y: =465
+        ZIndex: =60
+
+    Label19_2 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Height: =75
+        Size: =21
+        Text: =LookUp(Attendance, Title=UserEmail, Sub3_Attendance)
+        Width: =73
+        X: =499
+        Y: =464
+        ZIndex: =61
+
+    Label19_3 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Height: =75
+        Size: =21
+        Text: =LookUp(Attendance, Title=UserEmail, Sub4_Attendance)
+        Width: =73
+        X: =77
+        Y: =701
+        ZIndex: =62
+
+    Label19_4 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Height: =75
+        Size: =21
+        Text: =LookUp(Attendance, Title=UserEmail, Sub5_Attendance)
+        Width: =73
+        X: =284
+        Y: =701
+        ZIndex: =63
+
+    Label19_5 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Height: =75
+        Size: =21
+        Text: =LookUp(Attendance, Title=UserEmail, Sub6_Attendance)
+        Width: =75
+        X: =498
+        Y: =701
+        ZIndex: =64
+

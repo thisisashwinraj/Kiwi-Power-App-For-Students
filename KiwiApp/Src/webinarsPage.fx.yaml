@@ -1,0 +1,325 @@
+webinarsPage As screen:
+
+    Icon1_14 As icon.Add:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =50
+        Icon: =Icon.Information
+        Width: =50
+        X: =40
+        Y: =45
+        ZIndex: =1
+
+    Icon1_15 As icon.Add:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        Height: =50
+        Icon: =Icon.Reset
+        OnSelect: =Navigate(homePage, ScreenTransition.Fade)
+        Width: =50
+        X: =545
+        Y: =45
+        ZIndex: =2
+
+    Label5_7 As label:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =75
+        Size: =28
+        Text: ="Upcoming Webinars"
+        Width: =525
+        X: =40
+        Y: =148
+        ZIndex: =3
+
+    Label5_8 As label:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =58
+        Size: =28
+        Text: ="Learn something new today"
+        Width: =570
+        X: =40
+        Y: =204
+        ZIndex: =4
+
+    Button8_21 As button:
+        DisplayMode: =DisplayMode.View
+        Fill: =RGBA(209, 251, 234, 1)
+        Height: =177
+        Size: =24
+        Text: =""
+        Width: =150
+        X: =252
+        Y: =441
+        ZIndex: =5
+
+    Button8_22 As button:
+        DisplayMode: =DisplayMode.View
+        Fill: =RGBA(253, 237, 210, 1)
+        Height: =177
+        OnSelect: =Navigate(calendarPage, ScreenTransition.Fade)
+        Size: =24
+        Text: =""
+        Width: =150
+        X: =40
+        Y: =438
+        ZIndex: =6
+
+    Button8_23 As button:
+        DisplayMode: =DisplayMode.View
+        Fill: =RGBA(227, 213, 254, 1)
+        Height: =177
+        Size: =24
+        Text: =""
+        Width: =150
+        X: =461
+        Y: =441
+        ZIndex: =7
+
+    Button8_24 As button:
+        DisplayMode: =DisplayMode.View
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =50
+        Size: =24
+        Text: =""
+        Width: =50
+        X: =60
+        Y: =459
+        ZIndex: =8
+
+    Icon5_6 As icon.Add:
+        Color: =RGBA(0, 0, 0, 1)
+        Height: =35
+        Icon: =Icon.Link
+        OnSelect: =Navigate(calendarPage, ScreenTransition.Fade)
+        Width: =35
+        X: =67
+        Y: =466
+        ZIndex: =9
+
+    Button8_25 As button:
+        DisplayMode: =DisplayMode.View
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =50
+        Size: =24
+        Text: =""
+        Width: =50
+        X: =269
+        Y: =459
+        ZIndex: =10
+
+    Icon5_7 As icon.Add:
+        Color: =RGBA(0, 0, 0, 1)
+        Height: =35
+        Icon: =Icon.Link
+        Width: =35
+        X: =276
+        Y: =467
+        ZIndex: =11
+
+    Button8_26 As button:
+        DisplayMode: =DisplayMode.View
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =50
+        Size: =24
+        Text: =""
+        Width: =50
+        X: =482
+        Y: =459
+        ZIndex: =12
+
+    Icon5_8 As icon.Add:
+        Color: =RGBA(0, 0, 0, 1)
+        Height: =35
+        Icon: =Icon.Link
+        Width: =35
+        X: =489
+        Y: =466
+        ZIndex: =13
+
+    Label9_21 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =42
+        OnSelect: =Navigate(calendarPage, ScreenTransition.Fade)
+        Text: ="Workspace"
+        Width: =107
+        X: =60
+        Y: =528
+        ZIndex: =20
+
+    Label9_22 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =38
+        OnSelect: =Navigate(calendarPage, ScreenTransition.Fade)
+        Size: =11
+        Text: ="Events from"
+        Width: =107
+        X: =60
+        Y: =511
+        ZIndex: =21
+
+    Label9_23 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =42
+        Text: ="GDSC UCEK"
+        Width: =107
+        X: =270
+        Y: =528
+        ZIndex: =22
+
+    Label9_24 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =38
+        Size: =11
+        Text: ="Events from"
+        Width: =107
+        X: =270
+        Y: =511
+        ZIndex: =23
+
+    Label9_25 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =42
+        Text: ="IEDC UCEK"
+        Width: =107
+        X: =482
+        Y: =528
+        ZIndex: =24
+
+    Label9_26 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =38
+        Size: =11
+        Text: ="Events from"
+        Width: =107
+        X: =482
+        Y: =510
+        ZIndex: =25
+
+    TextSearchBox1_2 As text:
+        AccessibleLabel: ="Search people or add email address. At least one recipient is required for a successful submission."
+        BorderColor: =RGBA(48, 48, 48, 1)
+        Default: =""
+        Height: =70
+        HintText: ="Search for upcomin events"
+        PaddingLeft: =70
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Size: =21
+        Width: =571
+        X: =40
+        Y: =314
+        ZIndex: =26
+
+    Icon2_2 As icon.Add:
+        Color: =RGBA(69, 69, 69, 1)
+        Height: =35
+        Icon: =Icon.Search
+        Width: =35
+        X: =62
+        Y: =334
+        ZIndex: =27
+
+    Icon3_2 As icon.Add:
+        Color: =RGBA(69, 69, 69, 1)
+        Height: =35
+        Icon: =Icon.Microphone
+        Width: =35
+        X: =543
+        Y: =334
+        ZIndex: =28
+
+    Label7_3 As label:
+        DisabledColor: =RGBA(0, 0, 0, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =56
+        Size: =21
+        Text: ="Upcoming Sessions"
+        Width: =300
+        X: =40
+        Y: =656
+        ZIndex: =31
+
+    Image8 As image:
+        Height: =180
+        Image: =p
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Width: =571
+        X: =40
+        Y: =727
+        ZIndex: =32
+
+    Image8_1 As image:
+        Height: =180
+        Image: =q
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Width: =571
+        X: =41
+        Y: =933
+        ZIndex: =33
+
+    Label7_4 As label:
+        Align: =Align.Right
+        Color: =RGBA(69, 69, 69, 1)
+        DisabledColor: =RGBA(0, 0, 0, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =14
+        Size: =14
+        Text: ="View All"
+        Width: =86
+        X: =524
+        Y: =680
+        ZIndex: =34
+
+    Button6 As button:
+        BorderThickness: =0
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =25
+        OnSelect: |-
+            =Launch( "https://skillenza.com/communities/workspace" )
+        Size: =12
+        Text: ="View"
+        Width: =107
+        X: =62
+        Y: =570
+        ZIndex: =35
+
+    Button6_1 As button:
+        BorderThickness: =0
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =25
+        OnSelect: |-
+            =Launch( "https://dsc.community.dev/university-college-of-engineering-kariavattom/" )
+        Size: =12
+        Text: ="View"
+        Width: =107
+        X: =272
+        Y: =570
+        ZIndex: =36
+
+    Button6_2 As button:
+        BorderThickness: =0
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =25
+        OnSelect: |-
+            =Launch( "https://iedcucek.rf.gd/our-team/" )
+        Size: =12
+        Text: ="View"
+        Width: =107
+        X: =482
+        Y: =570
+        ZIndex: =37
+

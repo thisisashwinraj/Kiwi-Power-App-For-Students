@@ -1,0 +1,102 @@
+Screen1 As screen:
+
+    Container1 As groupContainer.verticalAutoLayoutContainer:
+        DisplayMode: =DisplayMode.Edit
+        Height: =534
+        Width: =818
+        X: =40
+        Y: =40
+        ZIndex: =1
+
+        "Gallery1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
+            AlignInContainer: =AlignInContainer.SetByContainer
+            DelayItemLoading: =true
+            Items: =CustomGallerySample
+            Layout: =Layout.Vertical
+            LoadingSpinner: =LoadingSpinner.Data
+            TemplatePadding: =0
+            TemplateSize: =104
+            ZIndex: =1
+
+            Image1 As image:
+                Height: =72
+                OnSelect: =Select(Parent)
+                Width: =72
+                X: =16
+                Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+                ZIndex: =1
+
+            Title1 As label:
+                FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                Height: =Self.Size * 1.8
+                OnSelect: =Select(Parent)
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =ThisItem.SampleHeading
+                VerticalAlign: =VerticalAlign.Top
+                Width: =Parent.TemplateWidth - 173
+                X: =103
+                Y: =(Parent.TemplateHeight - (Self.Size * 1.8 + Subtitle1.Size * 1.8)) / 2
+                ZIndex: =2
+
+            Subtitle1 As label:
+                FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+                Height: =Self.Size * 1.8
+                OnSelect: =Select(Parent)
+                PaddingBottom: =0
+                PaddingLeft: =0
+                PaddingRight: =0
+                PaddingTop: =0
+                Text: =ThisItem.SampleText
+                VerticalAlign: =VerticalAlign.Top
+                Width: =Title1.Width
+                X: =Title1.X
+                Y: =Title1.Y + Title1.Height
+                ZIndex: =3
+
+            NextArrow1 As icon.ChevronRight:
+                AccessibleLabel: =Self.Tooltip
+                Color: =RGBA(166, 166, 166, 1)
+                Height: =58
+                Icon: =Icon.ChevronRight
+                OnSelect: =Select(Parent)
+                PaddingBottom: =16
+                PaddingLeft: =16
+                PaddingRight: =16
+                PaddingTop: =16
+                Tooltip: ="View item details"
+                Width: =58
+                X: =Parent.TemplateWidth - Self.Width - 12
+                Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+                ZIndex: =4
+
+            Separator1 As rectangle:
+                Height: =0.5
+                OnSelect: =Select(Parent)
+                Width: =Parent.TemplateWidth
+                Y: =Parent.TemplateHeight - 1
+                ZIndex: =5
+
+            Rectangle1 As rectangle:
+                Height: =Parent.TemplateHeight
+                OnSelect: =Select(Parent)
+                Visible: =If(ThisItem.IsSelected, true, false)
+                Width: =8
+                ZIndex: =6
+
+        Label1 As label:
+            Text: ="Text"
+            ZIndex: =2
+
+        Rectangle2 As rectangle:
+            AlignInContainer: =AlignInContainer.Center
+            Width: =22
+            ZIndex: =3
+
+        TextInput1 As text:
+            AlignInContainer: =AlignInContainer.Start
+            Default: ="Text input"
+            FillPortions: =1
+            ZIndex: =4

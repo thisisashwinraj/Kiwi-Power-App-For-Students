@@ -1,0 +1,77 @@
+{
+  "6c858f55-482f-47ea-9580-d1cc1572377c": {
+    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_office365users/connections/ab6fd5ae167647d8a6da4169529a2b3e",
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Office 365 Users",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1542/1.0.1542.2635/office365users/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365users",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "Office365Users"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "6c858f55-482f-47ea-9580-d1cc1572377c"
+  },
+  "dc4a3af6-940e-42cb-b1d5-b6a521d3152b": {
+    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_office365/connections/ea321bb732344b65b0d1188f12801f79",
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Office 365 Outlook",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1538/1.0.1538.2621/office365/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "Office365Outlook"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "dc4a3af6-940e-42cb-b1d5-b6a521d3152b"
+  },
+  "deeb8356-2248-4fa9-a5b0-8afe5b970a55": {
+    "connectionInstanceId": "/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/db8c8fcefeca4fac9a782f307e8942c9",
+    "connectionParameters": {
+      "sku": "Enterprise"
+    },
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1539/1.0.1539.2620/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://stdntpartners.sharepoint.com/sites/Kiwi": {
+        "dataSources": {
+          "Attendance": {
+            "tableName": "1cd68171-75ff-47ca-ad84-0c7ba4a3dffe"
+          },
+          "UserCredentials": {
+            "tableName": "27a0bbbd-efcc-4db9-8525-75af28960601"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "UserCredentials",
+      "Attendance"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "deeb8356-2248-4fa9-a5b0-8afe5b970a55"
+  }
+}

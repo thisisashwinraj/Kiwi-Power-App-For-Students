@@ -1,0 +1,9 @@
+# Set default behavior to automatically normalize line endings.
+* text=auto
+
+# win scripts
+*.{cmd,[cC][mM][dD]} text eol=crlf
+*.{bat,[bB][aA][tT]} text eol=crlf
+
+# linux/macOS scripts
+*.sh text eol=lf

@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>../../35MSSharedLib1024.snk</AssemblyOriginatorKeyFile>
+    <PublicSign>true</PublicSign>
+  </PropertyGroup>
+    
+  <ItemGroup>
+    <ProjectReference Include="..\PAModel\Microsoft.PowerPlatform.Formulas.Tools.csproj" />
+  </ItemGroup>
+
+</Project>

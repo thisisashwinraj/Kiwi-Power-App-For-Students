@@ -1,0 +1,1293 @@
+"homePage As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
+    BackgroundImage: =
+
+    RectQuickActionBar3 As rectangle:
+        Height: =0
+        Width: =Parent.Width
+        ZIndex: =2
+
+    Canvas3 As fluidGrid.fluidGridWithBlankCard:
+        BorderThickness: =0
+        Height: =1136
+        Width: =Parent.Width
+        Y: =RectQuickActionBar3.Y + RectQuickActionBar3.Height
+        ZIndex: =3
+
+        DataCard4 As dataCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            BorderThickness: =0
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =779
+            Width: =Parent.Width
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+            Icon1_8 As icon.Add:
+                Color: =RGBA(0, 0, 0, 1)
+                Fill: =RGBA(255, 255, 255, 1)
+                Height: =50
+                Icon: =Icon.Camera
+                Width: =50
+                X: =40
+                Y: =40
+                ZIndex: =3
+
+            Icon1_9 As icon.Add:
+                Color: =RGBA(0, 0, 0, 1)
+                Height: =50
+                Icon: =Icon.Home
+                Width: =50
+                X: =545
+                Y: =45
+                ZIndex: =4
+
+            Label5_1 As label:
+                FontWeight: =FontWeight.Semibold
+                Height: =49
+                Size: =28
+                Text: ="Welcome, " & Office365Users.UserProfileV2(UserEmail).displayName
+                Width: =505
+                X: =40
+                Y: =170
+                ZIndex: =5
+
+            Label5_2 As label:
+                FontWeight: =FontWeight.Bold
+                Height: =46
+                Size: =28
+                Text: ="What are you looking for?"
+                Width: =505
+                X: =40
+                Y: =219
+                ZIndex: =6
+
+            Label8 As label:
+                FontWeight: =FontWeight.Bold
+                Height: =49
+                Size: =21
+                Text: ="Latest Updates"
+                Width: =281
+                X: =40
+                Y: =415
+                ZIndex: =10
+
+            Button3 As button:
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(255, 235, 210, 1)
+                Height: =315
+                Size: =24
+                Text: =""
+                Width: =560
+                X: =40
+                Y: =495
+                ZIndex: =11
+
+            Label10 As label:
+                FontWeight: =FontWeight.Semibold
+                Height: =30
+                Size: =14
+                Text: ="UCEK University Exam Update"
+                Width: =366
+                X: =73
+                Y: =519
+                ZIndex: =12
+
+            Label12 As label:
+                FontWeight: =FontWeight.Bold
+                Height: =33
+                Size: =22
+                Text: ="S6 Exams Date Released"
+                Width: =522
+                X: =73
+                Y: =561
+                ZIndex: =13
+
+            Button4 As button:
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(255, 255, 255, 1)
+                Height: =32
+                RadiusBottomLeft: =75
+                RadiusBottomRight: =75
+                RadiusTopLeft: =75
+                RadiusTopRight: =75
+                Size: =24
+                Text: =""
+                Width: =115
+                X: =77
+                Y: =623
+                ZIndex: =14
+
+            Label13 As label:
+                Align: =Align.Center
+                FontWeight: =FontWeight.Semibold
+                Height: =32
+                Size: =12
+                Text: ="Semester 6"
+                Width: =115
+                X: =77
+                Y: =623
+                ZIndex: =15
+
+            Button4_1 As button:
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(255, 255, 255, 1)
+                Height: =32
+                RadiusBottomLeft: =75
+                RadiusBottomRight: =75
+                RadiusTopLeft: =75
+                RadiusTopRight: =75
+                Size: =24
+                Text: =""
+                Width: =104
+                X: =204
+                Y: =623
+                ZIndex: =16
+
+            Label13_1 As label:
+                Align: =Align.Center
+                FontWeight: =FontWeight.Semibold
+                Height: =32
+                Size: =12
+                Text: ="UoKerala"
+                Width: =103
+                X: =205
+                Y: =623
+                ZIndex: =17
+
+            Icon4 As icon.Add:
+                BorderThickness: =1
+                Color: =RGBA(0, 0, 0, 1)
+                DisplayMode: =DisplayMode.View
+                Height: =28
+                Icon: =Icon.Clock
+                Width: =32
+                X: =77
+                Y: =682
+                ZIndex: =18
+
+            Label14 As label:
+                FontWeight: =FontWeight.Semibold
+                Height: =28
+                Size: =14
+                Text: ="Updated 2 days, 8 hours ago"
+                Width: =355
+                X: =109
+                Y: =682
+                ZIndex: =19
+
+            Image3 As image:
+                Height: =73
+                Image: ='images-removebg-preview (1)'
+                Width: =73
+                X: =505
+                Y: =517
+                ZIndex: =20
+
+            Button4_2 As button:
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(255, 255, 255, 1)
+                Height: =32
+                RadiusBottomLeft: =75
+                RadiusBottomRight: =75
+                RadiusTopLeft: =75
+                RadiusTopRight: =75
+                Size: =24
+                Text: =""
+                Width: =104
+                X: =321
+                Y: =623
+                ZIndex: =21
+
+            Label13_2 As label:
+                Align: =Align.Center
+                FontWeight: =FontWeight.Semibold
+                Height: =32
+                Size: =12
+                Text: ="S6 Exams"
+                Width: =104
+                X: =321
+                Y: =623
+                ZIndex: =22
+
+            Image4 As image:
+                BorderColor: =RGBA(255, 255, 255, 1)
+                BorderThickness: =3
+                Height: =45
+                Image: ='1'
+                RadiusBottomLeft: =75
+                RadiusBottomRight: =75
+                RadiusTopLeft: =75
+                RadiusTopRight: =75
+                Width: =45
+                X: =77
+                Y: =735
+                ZIndex: =23
+
+            Image4_1 As image:
+                BorderColor: =RGBA(255, 255, 255, 1)
+                BorderThickness: =3
+                Height: =45
+                Image: ='2'
+                RadiusBottomLeft: =75
+                RadiusBottomRight: =75
+                RadiusTopLeft: =75
+                RadiusTopRight: =75
+                Width: =45
+                X: =112
+                Y: =735
+                ZIndex: =24
+
+            Image4_2 As image:
+                BorderColor: =RGBA(255, 255, 255, 1)
+                BorderThickness: =3
+                Height: =45
+                Image: ='3'
+                RadiusBottomLeft: =75
+                RadiusBottomRight: =75
+                RadiusTopLeft: =75
+                RadiusTopRight: =75
+                Width: =45
+                X: =147
+                Y: =735
+                ZIndex: =25
+
+            Image4_3 As image:
+                BorderColor: =RGBA(255, 255, 255, 1)
+                BorderThickness: =3
+                Fill: =RGBA(0, 0, 0, 1)
+                Height: =45
+                Image: =
+                RadiusBottomLeft: =75
+                RadiusBottomRight: =75
+                RadiusTopLeft: =75
+                RadiusTopRight: =75
+                Width: =45
+                X: =180
+                Y: =735
+                ZIndex: =26
+
+            Label15 As label:
+                Align: =Align.Center
+                Color: =RGBA(255, 255, 255, 1)
+                Height: =45
+                Size: =12
+                Text: ="99"
+                Width: =45
+                X: =180
+                Y: =735
+                ZIndex: =27
+
+            Label14_1 As label:
+                Align: =Align.Right
+                FontWeight: =FontWeight.Semibold
+                Height: =22
+                Size: =12
+                Text: ="Over 100 people viewed this"
+                Width: =288
+                X: =288
+                Y: =761
+                ZIndex: =28
+
+            Button13 As button:
+                BorderThickness: =0
+                Color: =RGBA(0, 0, 0, 1)
+                Fill: =RGBA(255, 196, 194, 1)
+                Height: =29
+                HoverFill: =ColorFade(RGBA(255, 196, 194, 1), -20%)
+                OnSelect: |-
+                    =Launch("https://www.keralauniversity.ac.in/")
+                Size: =11
+                Text: ="Read More"
+                Width: =105
+                X: =464
+                Y: =725
+                ZIndex: =32
+
+            Icon11 As icon.Add:
+                Color: =RGBA(0, 0, 0, 1)
+                Height: =30
+                Icon: =Icon.TrendingUpwards
+                Width: =30
+                X: =426
+                Y: =724
+                ZIndex: =33
+
+            TextSearchBox1_7 As text:
+                AccessibleLabel: ="Search people or add email address. At least one recipient is required for a successful submission."
+                BorderColor: =RGBA(48, 48, 48, 1)
+                Default: =""
+                Height: =70
+                HintText: ="Search for people"
+                PaddingLeft: =70
+                RadiusBottomLeft: =10
+                RadiusBottomRight: =10
+                RadiusTopLeft: =10
+                RadiusTopRight: =10
+                Size: =21
+                Width: =555
+                X: =40
+                Y: =300
+                ZIndex: =34
+
+            Icon2_7 As icon.Add:
+                Color: =RGBA(69, 69, 69, 1)
+                Height: =35
+                Icon: =Icon.Search
+                Width: =33
+                X: =56
+                Y: =320
+                ZIndex: =35
+
+            Icon3_7 As icon.Add:
+                Color: =RGBA(69, 69, 69, 1)
+                Height: =35
+                Icon: =Icon.Microphone
+                Width: =33
+                X: =537
+                Y: =320
+                ZIndex: =36
+
+            Label7_10 As label:
+                Align: =Align.Right
+                Color: =RGBA(69, 69, 69, 1)
+                DisabledColor: =RGBA(0, 0, 0, 1)
+                FontWeight: =FontWeight.Bold
+                Height: =14
+                Size: =14
+                Text: ="View All"
+                Width: =86
+                X: =509
+                Y: =435
+                ZIndex: =37
+
+        DataCard5 As dataCard.blankCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =779
+            Width: =640
+            X: =0
+            Y: =1
+            ZIndex: =2
+
+            Label7 As label:
+                FontWeight: =FontWeight.Bold
+                Height: =57
+                Size: =21
+                Text: ="Quick Actions"
+                Width: =273
+                X: =35
+                Y: =41
+                ZIndex: =2
+
+            Button8 As button:
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(209, 251, 234, 1)
+                Height: =177
+                Size: =24
+                Text: =""
+                Width: =150
+                X: =245
+                Y: =131
+                ZIndex: =4
+
+            Button8_1 As button:
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(253, 237, 210, 1)
+                Height: =177
+                OnSelect: =Navigate(calendarPage, ScreenTransition.Fade)
+                Size: =24
+                Text: =""
+                Width: =150
+                X: =40
+                Y: =131
+                ZIndex: =5
+
+            Button8_2 As button:
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(227, 213, 254, 1)
+                Height: =177
+                Size: =24
+                Text: =""
+                Width: =150
+                X: =450
+                Y: =131
+                ZIndex: =6
+
+            Button8_3 As button:
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(255, 255, 255, 1)
+                Height: =50
+                Size: =24
+                Text: =""
+                Width: =50
+                X: =60
+                Y: =142
+                ZIndex: =7
+
+            Icon5 As icon.Add:
+                Color: =RGBA(0, 0, 0, 1)
+                Height: =35
+                Icon: =Icon.AddToCalendar
+                OnSelect: =Navigate(calendarPage, ScreenTransition.Fade)
+                Width: =35
+                X: =67
+                Y: =149
+                ZIndex: =8
+
+            Button8_5 As button:
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(255, 255, 255, 1)
+                Height: =50
+                Size: =24
+                Text: =""
+                Width: =50
+                X: =265
+                Y: =141
+                ZIndex: =10
+
+            Icon5_1 As icon.Add:
+                Color: =RGBA(0, 0, 0, 1)
+                Height: =35
+                Icon: =Icon.People
+                Width: =35
+                X: =272
+                Y: =149
+                ZIndex: =11
+
+            Button8_6 As button:
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(255, 255, 255, 1)
+                Height: =50
+                Size: =24
+                Text: =""
+                Width: =50
+                X: =466
+                Y: =142
+                ZIndex: =12
+
+            Icon5_2 As icon.Add:
+                Color: =RGBA(0, 0, 0, 1)
+                Height: =35
+                Icon: =Icon.Devices
+                Width: =35
+                X: =473
+                Y: =149
+                ZIndex: =13
+
+            Label9_3 As label:
+                FontWeight: =FontWeight.Bold
+                Height: =42
+                OnSelect: =Navigate(calendarPage, ScreenTransition.Fade)
+                Size: =16
+                Text: ="Calendar"
+                Width: =109
+                X: =60
+                Y: =211
+                ZIndex: =20
+
+            Label9_4 As label:
+                FontWeight: =FontWeight.Semibold
+                Height: =38
+                OnSelect: =Navigate(calendarPage, ScreenTransition.Fade)
+                Size: =12
+                Text: ="Academic"
+                Width: =107
+                X: =60
+                Y: =194
+                ZIndex: =21
+
+            Label9_5 As label:
+                FontWeight: =FontWeight.Bold
+                Height: =42
+                Size: =16
+                Text: ="Records"
+                Width: =108
+                X: =265
+                Y: =211
+                ZIndex: =22
+
+            Label9_6 As label:
+                FontWeight: =FontWeight.Semibold
+                Height: =38
+                Size: =12
+                Text: ="Attendance"
+                Width: =108
+                X: =265
+                Y: =194
+                ZIndex: =23
+
+            Label9_7 As label:
+                FontWeight: =FontWeight.Bold
+                Height: =42
+                Size: =16
+                Text: ="Webinar"
+                Width: =112
+                X: =466
+                Y: =211
+                ZIndex: =24
+
+            Label9_8 As label:
+                FontWeight: =FontWeight.Semibold
+                Height: =38
+                Size: =12
+                Text: ="Upcoming"
+                Width: =112
+                X: =466
+                Y: =194
+                ZIndex: =25
+
+            Button8_10 As button:
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(213, 222, 254, 1)
+                Height: =177
+                Size: =24
+                Text: =""
+                Width: =150
+                X: =40
+                Y: =345
+                ZIndex: =26
+
+            Button8_11 As button:
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(254, 213, 220, 1)
+                Height: =177
+                Size: =24
+                Text: =""
+                Width: =150
+                X: =245
+                Y: =345
+                ZIndex: =27
+
+            Button8_12 As button:
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(218, 252, 207, 1)
+                Height: =177
+                Size: =24
+                Text: =""
+                Width: =150
+                X: =449
+                Y: =345
+                ZIndex: =28
+
+            Button8_13 As button:
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(255, 255, 255, 1)
+                Height: =50
+                Size: =24
+                Text: =""
+                Width: =50
+                X: =60
+                Y: =367
+                ZIndex: =29
+
+            Button8_14 As button:
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(255, 255, 255, 1)
+                Height: =50
+                Size: =24
+                Text: =""
+                Width: =50
+                X: =266
+                Y: =367
+                ZIndex: =30
+
+            Button8_15 As button:
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(255, 255, 255, 1)
+                Height: =50
+                Size: =24
+                Text: =""
+                Width: =50
+                X: =466
+                Y: =367
+                ZIndex: =31
+
+            Icon5_3 As icon.Add:
+                Color: =RGBA(0, 0, 0, 1)
+                Height: =35
+                Icon: =Icon.Bus
+                Width: =35
+                X: =67
+                Y: =374
+                ZIndex: =38
+
+            Icon5_4 As icon.Add:
+                Color: =RGBA(0, 0, 0, 1)
+                Height: =35
+                Icon: =Icon.Phonebook
+                Width: =35
+                X: =274
+                Y: =374
+                ZIndex: =39
+
+            Icon5_5 As icon.Add:
+                Color: =RGBA(0, 0, 0, 1)
+                Height: =35
+                Icon: =Icon.ListWatchlistRemind
+                Width: =35
+                X: =473
+                Y: =374
+                ZIndex: =40
+
+            Label9_12 As label:
+                FontWeight: =FontWeight.Semibold
+                Height: =38
+                Size: =12
+                Text: ="Bus"
+                Width: =108
+                X: =60
+                Y: =417
+                ZIndex: =41
+
+            Label9_13 As label:
+                FontWeight: =FontWeight.Bold
+                Height: =42
+                Size: =16
+                Text: ="Routes"
+                Width: =107
+                X: =60
+                Y: =438
+                ZIndex: =42
+
+            Label9_14 As label:
+                FontWeight: =FontWeight.Bold
+                Height: =42
+                Size: =16
+                Text: ="Contacts"
+                Width: =109
+                X: =265
+                Y: =438
+                ZIndex: =43
+
+            Label9_15 As label:
+                FontWeight: =FontWeight.Bold
+                Height: =42
+                Size: =16
+                Text: ="Schedule"
+                Width: =114
+                X: =466
+                Y: =438
+                ZIndex: =44
+
+            Label9_16 As label:
+                FontWeight: =FontWeight.Semibold
+                Height: =38
+                Size: =12
+                Text: ="Prime"
+                Width: =109
+                X: =265
+                Y: =417
+                ZIndex: =45
+
+            Label9_17 As label:
+                FontWeight: =FontWeight.Semibold
+                Height: =38
+                Size: =12
+                Text: ="College"
+                Width: =114
+                X: =466
+                Y: =417
+                ZIndex: =46
+
+            Image7 As image:
+                Height: =80
+                Image: ='Untitled design (71)'
+                OnSelect: |-
+                    =Launch("https://www.facebook.com/")
+                RadiusBottomLeft: =10
+                RadiusBottomRight: =10
+                RadiusTopLeft: =10
+                RadiusTopRight: =10
+                Width: =80
+                X: =40
+                Y: =648
+                ZIndex: =48
+
+            Image7_1 As image:
+                Height: =80
+                Image: ='2_1'
+                OnSelect: |-
+                    =Launch("https://www.instagram.com/?hl=en")
+                Width: =80
+                X: =160
+                Y: =648
+                ZIndex: =50
+
+            Image7_2 As image:
+                Height: =80
+                Image: ='3_1'
+                OnSelect: |-
+                    =Launch("https://www.twitter.com/")
+                Width: =80
+                X: =280
+                Y: =648
+                ZIndex: =51
+
+            Image7_3 As image:
+                Height: =80
+                Image: ='4'
+                OnSelect: |-
+                    =Launch("https://www.snapchat.com/")
+                Width: =80
+                X: =399
+                Y: =648
+                ZIndex: =52
+
+            Image7_4 As image:
+                Height: =80
+                Image: ='Untitled design (69)'
+                OnSelect: |-
+                    =Launch("https://www.whatsapp.com/")
+                Width: =80
+                X: =519
+                Y: =648
+                ZIndex: =53
+
+            Label7_1 As label:
+                DisabledColor: =RGBA(0, 0, 0, 1)
+                FontWeight: =FontWeight.Bold
+                Height: =67
+                Size: =21
+                Text: ="Social Media Handles"
+                Width: =386
+                X: =35
+                Y: =562
+                ZIndex: =55
+
+            Button12 As button:
+                BorderThickness: =0
+                Color: =RGBA(0, 0, 0, 1)
+                Fill: =RGBA(255, 255, 255, 1)
+                Height: =25
+                OnSelect: =Navigate(calendarPage, ScreenTransition.Fade)
+                Size: =12
+                Text: ="View"
+                Width: =108
+                X: =60
+                Y: =253
+                ZIndex: =56
+
+            Button12_1 As button:
+                BorderThickness: =0
+                Color: =RGBA(0, 0, 0, 1)
+                Fill: =RGBA(255, 255, 255, 1)
+                Height: =25
+                OnSelect: =Navigate(attendancePage, ScreenTransition.Fade)
+                Size: =12
+                Text: ="View"
+                Width: =108
+                X: =266
+                Y: =253
+                ZIndex: =57
+
+            Button12_2 As button:
+                BorderThickness: =0
+                Color: =RGBA(0, 0, 0, 1)
+                Fill: =RGBA(255, 255, 255, 1)
+                Height: =25
+                OnSelect: =Navigate(webinarsPage, ScreenTransition.Fade)
+                Size: =12
+                Text: ="View"
+                Width: =108
+                X: =471
+                Y: =252
+                ZIndex: =58
+
+            Button12_3 As button:
+                BorderThickness: =0
+                Color: =RGBA(0, 0, 0, 1)
+                Fill: =RGBA(255, 255, 255, 1)
+                Height: =25
+                OnSelect: =Navigate(contactsPage, ScreenTransition.Fade)
+                Size: =12
+                Text: ="View"
+                Width: =108
+                X: =266
+                Y: =480
+                ZIndex: =59
+
+            Button12_4 As button:
+                BorderThickness: =0
+                Color: =RGBA(0, 0, 0, 1)
+                Fill: =RGBA(255, 255, 255, 1)
+                Height: =25
+                OnSelect: =Navigate(collegeSchedulePage, ScreenTransition.Fade)
+                Size: =12
+                Text: ="View"
+                Width: =108
+                X: =470
+                Y: =480
+                ZIndex: =60
+
+            Button12_5 As button:
+                BorderThickness: =0
+                Color: =RGBA(0, 0, 0, 1)
+                Fill: =RGBA(255, 255, 255, 1)
+                Height: =25
+                OnSelect: =Navigate(busRoutesPage, ScreenTransition.Fade)
+                Size: =12
+                Text: ="View"
+                Width: =108
+                X: =61
+                Y: =480
+                ZIndex: =61
+
+            Label7_11 As label:
+                Align: =Align.Right
+                Color: =RGBA(69, 69, 69, 1)
+                DisabledColor: =RGBA(0, 0, 0, 1)
+                FontWeight: =FontWeight.Bold
+                Height: =14
+                Size: =14
+                Text: ="View All"
+                Width: =86
+                X: =513
+                Y: =65
+                ZIndex: =62
+
+            Label7_12 As label:
+                Align: =Align.Right
+                Color: =RGBA(69, 69, 69, 1)
+                DisabledColor: =RGBA(0, 0, 0, 1)
+                FontWeight: =FontWeight.Bold
+                Height: =14
+                Size: =14
+                Text: ="View All"
+                Width: =86
+                X: =513
+                Y: =591
+                ZIndex: =63
+
+        DataCard1 As dataCard.blankCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =614
+            Width: =640
+            X: =0
+            Y: =2
+            ZIndex: =3
+
+            Label11_1 As label:
+                FontWeight: =FontWeight.Bold
+                Height: =27
+                Size: =21
+                Text: ="Student Articles"
+                Width: =567
+                X: =36
+                Y: =13
+                ZIndex: =10
+
+            Button10 As button:
+                BorderThickness: =0
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(253, 237, 210, 1)
+                Height: =163
+                Size: =24
+                Text: =""
+                Width: =560
+                X: =41
+                Y: =72
+                ZIndex: =12
+
+            Label24 As label:
+                FontWeight: =FontWeight.Bold
+                Height: =29
+                OnSelect: |-
+                    =Launch("https://www.medium.com/")
+                Size: =18
+                Text: ="Headstart to HTML5"
+                Width: =298
+                X: =60
+                Y: =86
+                ZIndex: =14
+
+            Label24_1 As label:
+                FontWeight: =FontWeight.Semibold
+                Height: =38
+                Text: ="A Quick and Dirty Guide to Web Dev"
+                Width: =331
+                X: =60
+                Y: =107
+                ZIndex: =15
+
+            Button11 As button:
+                Color: =RGBA(0, 0, 0, 1)
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(255, 255, 255, 1)
+                Height: =20
+                Size: =10
+                Text: ="WebDev"
+                Width: =81
+                X: =65
+                Y: =147
+                ZIndex: =16
+
+            Button11_1 As button:
+                Color: =RGBA(0, 0, 0, 1)
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(255, 255, 255, 1)
+                Height: =20
+                Size: =10
+                Text: ="HTML 5"
+                Width: =81
+                X: =163
+                Y: =147
+                ZIndex: =17
+
+            Button11_2 As button:
+                Color: =RGBA(0, 0, 0, 1)
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(255, 255, 255, 1)
+                Height: =20
+                Size: =10
+                Text: ="UI/UX"
+                Width: =81
+                X: =261
+                Y: =147
+                ZIndex: =18
+
+            Image13 As image:
+                Height: =35
+                Image: ='1'
+                RadiusBottomLeft: =150
+                RadiusBottomRight: =150
+                RadiusTopLeft: =150
+                RadiusTopRight: =150
+                Width: =38
+                X: =65
+                Y: =185
+                ZIndex: =20
+
+            Label25 As label:
+                FontWeight: =FontWeight.Semibold
+                Height: =23
+                Size: =11
+                Text: ="Devika Suresh"
+                Width: =224
+                X: =108
+                Y: =184
+                ZIndex: =21
+
+            Label25_1 As label:
+                Height: =12
+                Size: =9
+                Text: ="December 24, 2021 . 10 mins read"
+                Width: =224
+                X: =108
+                Y: =205
+                ZIndex: =22
+
+            Icon10 As icon.Add:
+                Color: =RGBA(0, 0, 0, 1)
+                Height: =22
+                Icon: =Icon.ListScrollWatchlist
+                OnSelect: |-
+                    =Launch("https://www.medium.com/")
+                Width: =24
+                X: =332
+                Y: =195
+                ZIndex: =23
+
+            Icon10_1 As icon.Add:
+                Color: =RGBA(0, 0, 0, 1)
+                Height: =22
+                Icon: =Icon.Share
+                Width: =24
+                X: =367
+                Y: =195
+                ZIndex: =24
+
+            Label7_9 As label:
+                FontWeight: =FontWeight.Bold
+                Height: =57
+                Size: =21
+                Text: ="Upcoming Features"
+                Width: =291
+                X: =35
+                Y: =274
+                ZIndex: =25
+
+            Button8_40 As button:
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(249, 227, 255, 1)
+                Height: =177
+                Size: =24
+                Text: =""
+                Width: =150
+                X: =245
+                Y: =351
+                ZIndex: =26
+
+            Button8_42 As button:
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(227, 247, 255, 1)
+                Height: =177
+                OnSelect: =Navigate(calendarPage, ScreenTransition.Fade)
+                Size: =24
+                Text: =""
+                Width: =150
+                X: =40
+                Y: =351
+                ZIndex: =27
+
+            Button8_43 As button:
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(233, 255, 214, 1)
+                Height: =177
+                Size: =24
+                Text: =""
+                Width: =150
+                X: =450
+                Y: =351
+                ZIndex: =28
+
+            Button8_44 As button:
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(255, 255, 255, 1)
+                Height: =50
+                Size: =24
+                Text: =""
+                Width: =50
+                X: =60
+                Y: =372
+                ZIndex: =29
+
+            Icon5_9 As icon.Add:
+                Color: =RGBA(0, 0, 0, 1)
+                Height: =35
+                Icon: =Icon.DockCheckProperties
+                OnSelect: =Navigate(calendarPage, ScreenTransition.Fade)
+                Width: =35
+                X: =67
+                Y: =379
+                ZIndex: =30
+
+            Button8_45 As button:
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(255, 255, 255, 1)
+                Height: =50
+                Size: =24
+                Text: =""
+                Width: =50
+                X: =265
+                Y: =361
+                ZIndex: =31
+
+            Icon5_10 As icon.Add:
+                Color: =RGBA(0, 0, 0, 1)
+                Height: =35
+                Icon: =Icon.ShoppingCart
+                Width: =35
+                X: =272
+                Y: =369
+                ZIndex: =32
+
+            Button8_46 As button:
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(255, 255, 255, 1)
+                Height: =50
+                Size: =24
+                Text: =""
+                Width: =50
+                X: =466
+                Y: =362
+                ZIndex: =33
+
+            Icon5_11 As icon.Add:
+                Color: =RGBA(0, 0, 0, 1)
+                Height: =35
+                Icon: =Icon.Note
+                Width: =35
+                X: =473
+                Y: =369
+                ZIndex: =34
+
+            Button8_47 As button:
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(255, 255, 255, 1)
+                Height: =25
+                OnSelect: =Navigate(calendarPage, ScreenTransition.Fade)
+                Size: =24
+                Text: =""
+                Width: =107
+                X: =60
+                Y: =483
+                ZIndex: =35
+
+            Button8_48 As button:
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(255, 255, 255, 1)
+                Height: =25
+                Size: =24
+                Text: =""
+                Width: =107
+                X: =266
+                Y: =473
+                ZIndex: =36
+
+            Button8_49 As button:
+                DisplayMode: =DisplayMode.View
+                Fill: =RGBA(255, 255, 255, 1)
+                Height: =25
+                Size: =24
+                Text: =""
+                Width: =107
+                X: =473
+                Y: =473
+                ZIndex: =37
+
+            Label9_18 As label:
+                Align: =Align.Center
+                FontWeight: =FontWeight.Semibold
+                Height: =25
+                OnSelect: =Navigate(calendarPage, ScreenTransition.Fade)
+                Size: =12
+                Text: ="En Route"
+                Width: =107
+                X: =60
+                Y: =483
+                ZIndex: =38
+
+            Label9_19 As label:
+                Align: =Align.Center
+                FontWeight: =FontWeight.Semibold
+                Height: =25
+                Size: =12
+                Text: ="En Route"
+                Width: =108
+                X: =265
+                Y: =473
+                ZIndex: =39
+
+            Label9_20 As label:
+                Align: =Align.Center
+                FontWeight: =FontWeight.Semibold
+                Height: =25
+                Size: =12
+                Text: ="En Route"
+                Width: =107
+                X: =471
+                Y: =473
+                ZIndex: =40
+
+            Label9_39 As label:
+                FontWeight: =FontWeight.Bold
+                Height: =42
+                OnSelect: =Navigate(calendarPage, ScreenTransition.Fade)
+                Size: =16
+                Text: ="Results"
+                Width: =107
+                X: =60
+                Y: =441
+                ZIndex: =41
+
+            Label9_40 As label:
+                FontWeight: =FontWeight.Semibold
+                Height: =38
+                OnSelect: =Navigate(calendarPage, ScreenTransition.Fade)
+                Size: =12
+                Text: ="Exam"
+                Width: =107
+                X: =60
+                Y: =424
+                ZIndex: =42
+
+            Label9_41 As label:
+                FontWeight: =FontWeight.Bold
+                Height: =42
+                Size: =16
+                Text: ="Stores"
+                Width: =107
+                X: =266
+                Y: =431
+                ZIndex: =43
+
+            Label9_42 As label:
+                FontWeight: =FontWeight.Semibold
+                Height: =38
+                Size: =12
+                Text: ="Second"
+                Width: =107
+                X: =266
+                Y: =414
+                ZIndex: =44
+
+            Label9_43 As label:
+                FontWeight: =FontWeight.Bold
+                Height: =42
+                Size: =16
+                Text: ="Notes"
+                Width: =107
+                X: =471
+                Y: =431
+                ZIndex: =45
+
+            Label9_44 As label:
+                FontWeight: =FontWeight.Semibold
+                Height: =38
+                Size: =12
+                Text: ="Academic"
+                Width: =107
+                X: =471
+                Y: =414
+                ZIndex: =46
+
+            Label9_45 As label:
+                Align: =Align.Center
+                Color: =RGBA(128, 128, 128, 1)
+                Height: =46
+                OnSelect: =Navigate(calendarPage, ScreenTransition.Fade)
+                Size: =12
+                Text: ="Developed by Ashwin Raj | Workspace © 2021"
+                Width: =478
+                X: =81
+                Y: =568
+                ZIndex: =47
+
+            Label7_13 As label:
+                Align: =Align.Right
+                Color: =RGBA(69, 69, 69, 1)
+                DisabledColor: =RGBA(0, 0, 0, 1)
+                FontWeight: =FontWeight.Bold
+                Height: =14
+                Size: =14
+                Text: ="View All"
+                Width: =86
+                X: =515
+                Y: =22
+                ZIndex: =48
+
+            Label7_14 As label:
+                Align: =Align.Right
+                Color: =RGBA(69, 69, 69, 1)
+                DisabledColor: =RGBA(0, 0, 0, 1)
+                FontWeight: =FontWeight.Bold
+                Height: =14
+                Size: =14
+                Text: ="View All"
+                Width: =86
+                X: =516
+                Y: =298
+                ZIndex: =49
+
+            Image5 As image:
+                Height: =134
+                Image: ='Untitled design (73)'
+                OnSelect: |-
+                    =Launch("https://www.medium.com/")
+                RadiusBottomLeft: =10
+                RadiusBottomRight: =10
+                RadiusTopLeft: =10
+                RadiusTopRight: =10
+                Width: =157
+                X: =428
+                Y: =86
+                ZIndex: =50
+

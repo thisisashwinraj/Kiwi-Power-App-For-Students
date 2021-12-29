@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <IsPackable>false</IsPackable>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>../../35MSSharedLib1024.snk</AssemblyOriginatorKeyFile>
+    <PublicSign>true</PublicSign>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="2.1.0" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.1.0" />
+    <PackageReference Include="coverlet.collector" Version="1.2.0" />
+    <PackageReference Include="YamlDotNet" Version="9.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Apps\*.msapp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SrcBaseline\*.fx.yaml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>    
+    <Content Include="Templates\*.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PAModel\Microsoft.PowerPlatform.Formulas.Tools.csproj" />
+  </ItemGroup>
+
+</Project>
