@@ -1,0 +1,94 @@
+loginPage As screen:
+    Fill: =RGBA(250, 252, 252, 1)
+
+    Button2_1 As button:
+        BorderThickness: =0
+        Fill: =RGBA(161, 135, 212, 1)
+        Height: =70
+        HoverFill: =ColorFade(RGBA(161, 135, 212, 1), -20%)
+        OnSelect: |-
+            =If(!IsBlank(LookUp(UserCredentials, Title=LogInInput_EmailId.Text And Password=LogInInput_Password.Text).Title), Navigate(homePage), Notify("You have entered the wrong Password or E-Mail Id. Try Again", Error));
+            
+            Reset(LogInInput_EmailId);
+            Reset(LogInInput_Password);
+        RadiusBottomLeft: =50
+        RadiusBottomRight: =50
+        RadiusTopLeft: =50
+        RadiusTopRight: =50
+        Size: =24
+        Text: ="LogIn"
+        Width: =280
+        X: =180
+        Y: =921
+        ZIndex: =1
+
+    Label1_3 As label:
+        Align: =Align.Center
+        Color: =RGBA(116, 116, 116, 1)
+        Height: =125
+        Text: |-
+            ="Have not received your credentials? Contact your admin
+            If you face any issues while logging in, contact the admin"
+        Width: =611
+        X: =15
+        Y: =1011
+        ZIndex: =2
+
+    LogInInput_Password As text:
+        BorderColor: =RGBA(161, 135, 212, 1)
+        Color: =RGBA(116, 116, 116, 1)
+        Default: =""
+        DisabledFill: =RGBA(255, 255, 255, 1)
+        Height: =70
+        HintText: =" Enter Password"
+        HoverBorderColor: =RGBA(179, 179, 179, 1)
+        HoverFill: =RGBA(255, 255, 255, 1)
+        Mode: =TextMode.Password
+        RadiusBottomLeft: =50
+        RadiusBottomRight: =50
+        RadiusTopLeft: =50
+        RadiusTopRight: =50
+        Size: =21
+        Width: =560
+        X: =40
+        Y: =820
+        ZIndex: =3
+
+    LogInInput_EmailId As text:
+        BorderColor: =RGBA(161, 135, 212, 1)
+        Color: =RGBA(116, 116, 116, 1)
+        Default: =""
+        DisabledBorderColor: =RGBA(255, 255, 255, 1)
+        DisabledFill: =RGBA(255, 255, 255, 1)
+        Height: =70
+        HintText: =" Enter E-Mail Id"
+        HoverBorderColor: =RGBA(153, 153, 153, 1)
+        HoverFill: =RGBA(255, 255, 255, 1)
+        RadiusBottomLeft: =50
+        RadiusBottomRight: =50
+        RadiusTopLeft: =50
+        RadiusTopRight: =50
+        Size: =21
+        Width: =560
+        X: =40
+        Y: =724
+        ZIndex: =4
+
+    Label2 As label:
+        Color: =RGBA(74, 40, 143, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =58
+        Size: =24
+        Text: ="Welcome Back!"
+        Width: =348
+        X: =40
+        Y: =646
+        ZIndex: =5
+
+    Image9 As image:
+        Height: =590
+        Image: ='Untitled design (74)'
+        Width: =640
+        Y: =34
+        ZIndex: =6
+

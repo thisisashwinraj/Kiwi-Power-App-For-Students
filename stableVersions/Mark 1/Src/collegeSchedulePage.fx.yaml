@@ -1,0 +1,215 @@
+collegeSchedulePage As screen:
+
+    Icon1_24 As icon.Add:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =50
+        Icon: =Icon.Information
+        Width: =50
+        X: =40
+        Y: =45
+        ZIndex: =1
+
+    Icon1_25 As icon.Add:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        Height: =50
+        Icon: =Icon.Reset
+        OnSelect: =Navigate(homePage, ScreenTransition.Fade)
+        Width: =50
+        X: =545
+        Y: =45
+        ZIndex: =2
+
+    Label5_17 As label:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =75
+        Size: =28
+        Text: ="Class Schedule"
+        Width: =525
+        X: =40
+        Y: =148
+        ZIndex: =3
+
+    Label5_18 As label:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =58
+        Size: =28
+        Text: ="Check what's next for you"
+        Width: =570
+        X: =40
+        Y: =204
+        ZIndex: =4
+
+    Dropdown1 As dropdown:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        ChevronBackground: =RGBA(0, 0, 0, 1)
+        Height: =70
+        Items: =["CSE Semester 1", "CSE Semester 3", "CSE Semester 5", "CSE Semester 7", "ECE Semester 1", "ECE Semester 3", "ECE Semester 5", "ECE Semester 7", "IT Semester 1", "IT Semester 3", "IT Semester 5", "IT Semester 7"]
+        PressedFill: =RGBA(116, 116, 116, 1)
+        SelectionFill: =RGBA(0, 0, 0, 1)
+        Size: =18
+        Width: =555
+        X: =40
+        Y: =348
+        ZIndex: =29
+
+    Image12 As image:
+        Height: =122
+        Image: |-
+            =Switch(Dropdown1.Selected.Value, 
+            "CSE Semester 3", S3_timetable,
+            "CSE Semester 5", S5_timetable,
+            "CSE Semester 7", S7_timetable)
+        Width: =570
+        X: =35
+        Y: =457
+        ZIndex: =30
+
+    Dropdown1_1 As dropdown:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        ChevronBackground: =RGBA(0, 0, 0, 1)
+        Height: =70
+        Items: =["Semester 1 University Exams", "Semester 7 University Exams"]
+        PressedFill: =RGBA(116, 116, 116, 1)
+        SelectionFill: =RGBA(0, 0, 0, 1)
+        Size: =18
+        Width: =555
+        X: =40
+        Y: =679
+        ZIndex: =31
+
+    Label22 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =20
+        Size: =17
+        Text: ="Academic Time Table"
+        Width: =565
+        X: =35
+        Y: =311
+        ZIndex: =32
+
+    Label22_1 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =30
+        Size: =17
+        Text: ="Examination Schedules"
+        Width: =567
+        X: =35
+        Y: =637
+        ZIndex: =33
+
+    Image12_1 As image:
+        Height: =122
+        Image: |-
+            =Switch(Dropdown1.Selected.Value, 
+            "CSE Semester 3", S3_timetable,
+            "CSE Semester 5", S5_timetable,
+            "CSE Semester 7", S7_timetable)
+        Width: =570
+        X: =35
+        Y: =785
+        ZIndex: =34
+
+    Rectangle8 As rectangle:
+        Fill: =RGBA(153, 153, 153, 1)
+        Height: =1
+        Width: =555
+        X: =40
+        Y: =607
+        ZIndex: =35
+
+    Image6_28 As image:
+        Height: =80
+        Image: ='3_3'
+        RadiusBottomLeft: =100
+        RadiusBottomRight: =100
+        RadiusTopLeft: =100
+        RadiusTopRight: =100
+        Width: =80
+        X: =40
+        Y: =1017
+        ZIndex: =36
+
+    Label18_18 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =26
+        Size: =18
+        Text: ="Parshuram Kumar"
+        Width: =302
+        X: =136
+        Y: =1031
+        ZIndex: =37
+
+    Label18_19 As label:
+        Color: =RGBA(69, 69, 69, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =28
+        Size: =14
+        Text: ="Head of Examination Cell"
+        Width: =485
+        X: =136
+        Y: =1057
+        ZIndex: =38
+
+    Image6_29 As image:
+        Fill: =RGBA(253, 237, 210, 1)
+        Height: =50
+        Image: =
+        RadiusBottomLeft: =100
+        RadiusBottomRight: =100
+        RadiusTopLeft: =100
+        RadiusTopRight: =100
+        Width: =50
+        X: =531
+        Y: =1028
+        ZIndex: =39
+
+    Icon6_17 As icon.Add:
+        Color: =RGBA(0, 0, 0, 1)
+        Height: =30
+        Icon: =Icon.Mail
+        OnSelect: =Navigate(emailTemplate, ScreenTransition.Fade)
+        Width: =50
+        X: =531
+        Y: =1038
+        ZIndex: =40
+
+    Image6_30 As image:
+        Fill: =RGBA(220, 252, 210, 1)
+        Height: =50
+        Image: =
+        RadiusBottomLeft: =100
+        RadiusBottomRight: =100
+        RadiusTopLeft: =100
+        RadiusTopRight: =100
+        Width: =50
+        X: =466
+        Y: =1028
+        ZIndex: =41
+
+    Icon6_18 As icon.Add:
+        Color: =RGBA(0, 0, 0, 1)
+        Height: =30
+        Icon: =Icon.Phone
+        OnSelect: |-
+            =Launch("tel:01162102020")
+        Width: =50
+        X: =466
+        Y: =1038
+        ZIndex: =42
+
+    Label7_8 As label:
+        DisabledColor: =RGBA(0, 0, 0, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =56
+        Size: =21
+        Text: ="Examination Control"
+        Width: =341
+        X: =42
+        Y: =941
+        ZIndex: =43
+

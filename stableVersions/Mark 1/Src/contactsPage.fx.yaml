@@ -1,0 +1,575 @@
+contactsPage As screen:
+
+    TextSearchBox1_1 As text:
+        AccessibleLabel: ="Search people or add email address. At least one recipient is required for a successful submission."
+        BorderColor: =RGBA(48, 48, 48, 1)
+        Default: =""
+        Height: =70
+        HintText: ="Search for contacts"
+        PaddingLeft: =70
+        RadiusBottomLeft: =10
+        RadiusBottomRight: =10
+        RadiusTopLeft: =10
+        RadiusTopRight: =10
+        Size: =21
+        Width: =571
+        X: =40
+        Y: =316
+        ZIndex: =1
+
+    Icon1_12 As icon.Add:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =50
+        Icon: =Icon.Information
+        Width: =50
+        X: =40
+        Y: =45
+        ZIndex: =2
+
+    Icon1_13 As icon.Add:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        Height: =50
+        Icon: =Icon.Reset
+        OnSelect: =Navigate(homePage, ScreenTransition.Fade)
+        Width: =50
+        X: =545
+        Y: =45
+        ZIndex: =3
+
+    Label5_5 As label:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =75
+        Size: =28
+        Text: ="Prime Contacts"
+        Width: =525
+        X: =40
+        Y: =148
+        ZIndex: =4
+
+    Label5_6 As label:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =58
+        Size: =28
+        Text: ="Just a phone call away."
+        Width: =525
+        X: =40
+        Y: =204
+        ZIndex: =5
+
+    Icon2_1 As icon.Add:
+        Color: =RGBA(69, 69, 69, 1)
+        Height: =35
+        Icon: =Icon.Search
+        Width: =35
+        X: =62
+        Y: =336
+        ZIndex: =6
+
+    Icon3_1 As icon.Add:
+        Color: =RGBA(69, 69, 69, 1)
+        Height: =35
+        Icon: =Icon.Microphone
+        Width: =35
+        X: =543
+        Y: =336
+        ZIndex: =7
+
+    Button8_4 As button:
+        DisplayMode: =DisplayMode.View
+        Fill: =RGBA(227, 255, 244, 1)
+        Height: =177
+        Size: =24
+        Text: =""
+        Width: =150
+        X: =245
+        Y: =441
+        ZIndex: =8
+
+    Button8_19 As button:
+        DisplayMode: =DisplayMode.View
+        Fill: =RGBA(253, 237, 210, 1)
+        Height: =177
+        OnSelect: =Navigate(calendarPage, ScreenTransition.Fade)
+        Size: =24
+        Text: =""
+        Width: =150
+        X: =40
+        Y: =441
+        ZIndex: =9
+
+    Button8_20 As button:
+        DisplayMode: =DisplayMode.View
+        Fill: =RGBA(233, 222, 255, 1)
+        Height: =177
+        Size: =24
+        Text: =""
+        Width: =150
+        X: =450
+        Y: =441
+        ZIndex: =10
+
+    Image6 As image:
+        Height: =80
+        Image: ='3_3'
+        RadiusBottomLeft: =100
+        RadiusBottomRight: =100
+        RadiusTopLeft: =100
+        RadiusTopRight: =100
+        Width: =80
+        X: =75
+        Y: =455
+        ZIndex: =11
+
+    Image6_1 As image:
+        Height: =80
+        Image: ='1_3'
+        RadiusBottomLeft: =100
+        RadiusBottomRight: =100
+        RadiusTopLeft: =100
+        RadiusTopRight: =100
+        Width: =80
+        X: =280
+        Y: =455
+        ZIndex: =12
+
+    Image6_2 As image:
+        Height: =80
+        Image: ='2_3'
+        RadiusBottomLeft: =100
+        RadiusBottomRight: =100
+        RadiusTopLeft: =100
+        RadiusTopRight: =100
+        Width: =80
+        X: =485
+        Y: =455
+        ZIndex: =13
+
+    Label11 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Semibold
+        Height: =38
+        Size: =16
+        Text: ="Chancellor"
+        X: =40
+        Y: =535
+        ZIndex: =14
+
+    Label11_2 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Semibold
+        Height: =38
+        Size: =16
+        Text: ="UG Dean"
+        X: =245
+        Y: =535
+        ZIndex: =15
+
+    Label11_3 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Semibold
+        Height: =38
+        Size: =16
+        Text: ="Principal"
+        X: =450
+        Y: =535
+        ZIndex: =16
+
+    Button7 As button:
+        BorderThickness: =0
+        Color: =RGBA(69, 69, 69, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =25
+        OnSelect: =Navigate(emailTemplate, ScreenTransition.Fade)
+        Size: =12
+        Text: ="E-Mail"
+        Width: =110
+        X: =60
+        Y: =578
+        ZIndex: =17
+
+    Button7_1 As button:
+        BorderThickness: =0
+        Color: =RGBA(69, 69, 69, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =25
+        OnSelect: =Navigate(emailTemplate, ScreenTransition.Fade)
+        Size: =12
+        Text: ="E-Mail"
+        Width: =110
+        X: =265
+        Y: =578
+        ZIndex: =18
+
+    Button7_2 As button:
+        BorderThickness: =0
+        Color: =RGBA(69, 69, 69, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =25
+        OnSelect: =Navigate(emailTemplate, ScreenTransition.Fade)
+        Size: =12
+        Text: ="E-Mail"
+        Width: =110
+        X: =470
+        Y: =578
+        ZIndex: =19
+
+    Label7_2 As label:
+        DisabledColor: =RGBA(0, 0, 0, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =74
+        Size: =21
+        Text: ="Important Contacts"
+        Width: =558
+        X: =38
+        Y: =629
+        ZIndex: =20
+
+    Image6_3 As image:
+        Height: =80
+        Image: ='3_3'
+        RadiusBottomLeft: =100
+        RadiusBottomRight: =100
+        RadiusTopLeft: =100
+        RadiusTopRight: =100
+        Width: =80
+        X: =40
+        Y: =708
+        ZIndex: =21
+
+    Image6_4 As image:
+        Height: =80
+        Image: ='3_3'
+        RadiusBottomLeft: =100
+        RadiusBottomRight: =100
+        RadiusTopLeft: =100
+        RadiusTopRight: =100
+        Width: =80
+        X: =38
+        Y: =818
+        ZIndex: =22
+
+    Image6_5 As image:
+        Height: =80
+        Image: ='3_3'
+        RadiusBottomLeft: =100
+        RadiusBottomRight: =100
+        RadiusTopLeft: =100
+        RadiusTopRight: =100
+        Width: =80
+        X: =38
+        Y: =928
+        ZIndex: =23
+
+    Image6_6 As image:
+        Height: =80
+        Image: ='3_3'
+        RadiusBottomLeft: =100
+        RadiusBottomRight: =100
+        RadiusTopLeft: =100
+        RadiusTopRight: =100
+        Width: =80
+        X: =38
+        Y: =1038
+        ZIndex: =24
+
+    Label18 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =26
+        Size: =18
+        Text: ="Head of Department"
+        Width: =497
+        X: =143
+        Y: =726
+        ZIndex: =25
+
+    Label18_1 As label:
+        Color: =RGBA(69, 69, 69, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =28
+        Size: =14
+        Text: ="B.Tech CSE - UCEK, UoKerala"
+        Width: =497
+        X: =143
+        Y: =752
+        ZIndex: =26
+
+    Image6_7 As image:
+        Fill: =RGBA(253, 237, 210, 1)
+        Height: =50
+        Image: =
+        RadiusBottomLeft: =100
+        RadiusBottomRight: =100
+        RadiusTopLeft: =100
+        RadiusTopRight: =100
+        Width: =50
+        X: =550
+        Y: =723
+        ZIndex: =27
+
+    Icon6 As icon.Add:
+        Color: =RGBA(0, 0, 0, 1)
+        Height: =30
+        Icon: =Icon.Mail
+        OnSelect: =Navigate(emailTemplate, ScreenTransition.Fade)
+        Width: =50
+        X: =550
+        Y: =733
+        ZIndex: =28
+
+    Label18_2 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =26
+        Size: =18
+        Text: ="Head of Department"
+        Width: =497
+        X: =143
+        Y: =832
+        ZIndex: =29
+
+    Label18_3 As label:
+        Color: =RGBA(69, 69, 69, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =28
+        Size: =14
+        Text: ="B.Tech IT - UCEK, UoKerala"
+        Width: =497
+        X: =143
+        Y: =858
+        ZIndex: =30
+
+    Image6_8 As image:
+        Fill: =RGBA(253, 237, 210, 1)
+        Height: =50
+        Image: =
+        RadiusBottomLeft: =100
+        RadiusBottomRight: =100
+        RadiusTopLeft: =100
+        RadiusTopRight: =100
+        Width: =50
+        X: =550
+        Y: =829
+        ZIndex: =31
+
+    Icon6_1 As icon.Add:
+        Color: =RGBA(0, 0, 0, 1)
+        Height: =30
+        Icon: =Icon.Mail
+        OnSelect: =Navigate(emailTemplate, ScreenTransition.Fade)
+        Width: =50
+        X: =550
+        Y: =839
+        ZIndex: =32
+
+    Label18_4 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =26
+        Size: =18
+        Text: ="Head of Department"
+        Width: =497
+        X: =143
+        Y: =942
+        ZIndex: =33
+
+    Label18_5 As label:
+        Color: =RGBA(69, 69, 69, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =28
+        Size: =14
+        Text: ="B.Tech ECE - UCEK, UoKerala"
+        Width: =497
+        X: =143
+        Y: =968
+        ZIndex: =34
+
+    Image6_9 As image:
+        Fill: =RGBA(253, 237, 210, 1)
+        Height: =50
+        Image: =
+        RadiusBottomLeft: =100
+        RadiusBottomRight: =100
+        RadiusTopLeft: =100
+        RadiusTopRight: =100
+        Width: =50
+        X: =550
+        Y: =939
+        ZIndex: =35
+
+    Icon6_2 As icon.Add:
+        Color: =RGBA(0, 0, 0, 1)
+        Height: =30
+        Icon: =Icon.Mail
+        OnSelect: =Navigate(emailTemplate, ScreenTransition.Fade)
+        Width: =50
+        X: =550
+        Y: =949
+        ZIndex: =36
+
+    Label18_6 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =26
+        Size: =18
+        Text: ="CGPU Placement Officer"
+        Width: =497
+        X: =143
+        Y: =1052
+        ZIndex: =37
+
+    Label18_7 As label:
+        Color: =RGBA(69, 69, 69, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =28
+        Size: =14
+        Text: ="Placement Unit - UoKerala"
+        Width: =497
+        X: =143
+        Y: =1078
+        ZIndex: =38
+
+    Image6_10 As image:
+        Fill: =RGBA(253, 237, 210, 1)
+        Height: =50
+        Image: =
+        RadiusBottomLeft: =100
+        RadiusBottomRight: =100
+        RadiusTopLeft: =100
+        RadiusTopRight: =100
+        Width: =50
+        X: =550
+        Y: =1049
+        ZIndex: =39
+
+    Icon6_3 As icon.Add:
+        Color: =RGBA(0, 0, 0, 1)
+        Height: =30
+        Icon: =Icon.Mail
+        OnSelect: =Navigate(emailTemplate, ScreenTransition.Fade)
+        Width: =50
+        X: =550
+        Y: =1059
+        ZIndex: =40
+
+    Rectangle6 As rectangle:
+        Fill: =RGBA(202, 202, 202, 1)
+        Height: =1
+        Width: =560
+        X: =40
+        Y: =802
+        ZIndex: =41
+
+    Rectangle6_1 As rectangle:
+        Fill: =RGBA(202, 202, 202, 1)
+        Height: =1
+        Width: =560
+        X: =38
+        Y: =912
+        ZIndex: =42
+
+    Rectangle6_2 As rectangle:
+        Fill: =RGBA(202, 202, 202, 1)
+        Height: =1
+        Width: =560
+        X: =40
+        Y: =1022
+        ZIndex: =43
+
+    Image6_11 As image:
+        Fill: =RGBA(220, 252, 210, 1)
+        Height: =50
+        Image: =
+        RadiusBottomLeft: =100
+        RadiusBottomRight: =100
+        RadiusTopLeft: =100
+        RadiusTopRight: =100
+        Width: =50
+        X: =485
+        Y: =723
+        ZIndex: =44
+
+    Image6_12 As image:
+        Fill: =RGBA(220, 252, 210, 1)
+        Height: =50
+        Image: =
+        RadiusBottomLeft: =100
+        RadiusBottomRight: =100
+        RadiusTopLeft: =100
+        RadiusTopRight: =100
+        Width: =50
+        X: =485
+        Y: =829
+        ZIndex: =45
+
+    Image6_13 As image:
+        Fill: =RGBA(220, 252, 210, 1)
+        Height: =50
+        Image: =
+        RadiusBottomLeft: =100
+        RadiusBottomRight: =100
+        RadiusTopLeft: =100
+        RadiusTopRight: =100
+        Width: =50
+        X: =485
+        Y: =939
+        ZIndex: =46
+
+    Image6_14 As image:
+        Fill: =RGBA(220, 252, 210, 1)
+        Height: =50
+        Image: =
+        RadiusBottomLeft: =100
+        RadiusBottomRight: =100
+        RadiusTopLeft: =100
+        RadiusTopRight: =100
+        Width: =50
+        X: =485
+        Y: =1049
+        ZIndex: =47
+
+    Icon6_4 As icon.Add:
+        Color: =RGBA(0, 0, 0, 1)
+        Height: =30
+        Icon: =Icon.Phone
+        OnSelect: |-
+            =Launch("tel:01162102020")
+        Width: =50
+        X: =485
+        Y: =733
+        ZIndex: =48
+
+    Icon6_5 As icon.Add:
+        Color: =RGBA(0, 0, 0, 1)
+        Height: =30
+        Icon: =Icon.Phone
+        OnSelect: |-
+            =Launch("tel:01162102020")
+        Width: =50
+        X: =485
+        Y: =839
+        ZIndex: =49
+
+    Icon6_6 As icon.Add:
+        Color: =RGBA(0, 0, 0, 1)
+        Height: =30
+        Icon: =Icon.Phone
+        OnSelect: |-
+            =Launch("tel:01162102020")
+        Width: =50
+        X: =485
+        Y: =950
+        ZIndex: =50
+
+    Icon6_7 As icon.Add:
+        Color: =RGBA(0, 0, 0, 1)
+        Height: =30
+        Icon: =Icon.Phone
+        OnSelect: |-
+            =Launch("tel:01162102020")
+        Width: =50
+        X: =485
+        Y: =1059
+        ZIndex: =51
+

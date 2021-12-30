@@ -1,0 +1,425 @@
+"busRoute2Page As screen.'phoneLayout_FluidGridWithHeaderPageLayout_ver3.0'":
+
+    RectQuickActionBar4_1 As rectangle:
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =88
+        Width: =Parent.Width
+        ZIndex: =1
+
+    Canvas1_1 As fluidGrid.fluidGridWithBlankCard:
+        BorderThickness: =0
+        Height: =1048
+        Width: =Parent.Width
+        Y: =RectQuickActionBar4_1.Y + RectQuickActionBar4_1.Height
+        ZIndex: =3
+
+        DataCard2_1 As dataCard:
+            BorderColor: =RGBA(0, 0, 0, 1)
+            BorderStyle: =BorderStyle.Solid
+            BorderThickness: =0
+            DisplayMode: =DisplayMode.Edit
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =928
+            Width: =Parent.Width
+            X: =0
+            Y: =0
+            ZIndex: =1
+
+            Label5_13 As label:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                FontWeight: =FontWeight.Semibold
+                Height: =75
+                Size: =28
+                Text: ="College Bus Route 2"
+                Width: =525
+                X: =40
+                Y: =40
+                ZIndex: =1
+
+            Label5_14 As label:
+                BorderColor: =RGBA(0, 0, 0, 1)
+                FontWeight: =FontWeight.Bold
+                Height: =58
+                Size: =28
+                Text: ="Every school day counts"
+                Width: =570
+                X: =40
+                Y: =96
+                ZIndex: =2
+
+            TextSearchBox1_5 As text:
+                AccessibleLabel: ="Search people or add email address. At least one recipient is required for a successful submission."
+                BorderColor: =RGBA(48, 48, 48, 1)
+                Default: =""
+                Height: =70
+                HintText: ="Search for upcomin events"
+                HoverBorderColor: =RGBA(116, 116, 116, 1)
+                PaddingLeft: =70
+                RadiusBottomLeft: =10
+                RadiusBottomRight: =10
+                RadiusTopLeft: =10
+                RadiusTopRight: =10
+                Size: =21
+                Width: =571
+                X: =40
+                Y: =189
+                ZIndex: =3
+
+            Icon2_5 As icon.Add:
+                Color: =RGBA(69, 69, 69, 1)
+                Height: =35
+                Icon: =Icon.Search
+                Width: =35
+                X: =62
+                Y: =209
+                ZIndex: =4
+
+            Icon3_5 As icon.Add:
+                Color: =RGBA(69, 69, 69, 1)
+                Height: =35
+                Icon: =Icon.Microphone
+                Width: =35
+                X: =543
+                Y: =209
+                ZIndex: =5
+
+            Icon9_4 As icon.Add:
+                Color: =RGBA(0, 0, 0, 1)
+                Height: =50
+                Icon: =Icon.Transportation
+                Width: =50
+                X: =40
+                Y: =310
+                ZIndex: =6
+
+            Label20_12 As label:
+                FontWeight: =FontWeight.Bold
+                Height: =50
+                Size: =18
+                Text: ="Vellayambalam"
+                Width: =478
+                X: =131
+                Y: =310
+                ZIndex: =7
+
+            Image11_3 As image:
+                Height: =53
+                Image: =po
+                Width: =50
+                X: =40
+                Y: =373
+                ZIndex: =8
+
+            Icon9_5 As icon.Add:
+                Color: =RGBA(0, 0, 0, 1)
+                Height: =50
+                Icon: =Icon.Transportation
+                Width: =50
+                X: =40
+                Y: =440
+                ZIndex: =9
+
+            Label20_20 As label:
+                FontWeight: =FontWeight.Bold
+                Height: =50
+                Size: =18
+                Text: ="Kowdiar"
+                Width: =478
+                X: =131
+                Y: =440
+                ZIndex: =10
+
+            Image11_4 As image:
+                Height: =53
+                Image: =po
+                Width: =50
+                X: =40
+                Y: =507
+                ZIndex: =11
+
+            Icon9_6 As icon.Add:
+                Color: =RGBA(0, 0, 0, 1)
+                Height: =50
+                Icon: =Icon.Transportation
+                Width: =50
+                X: =40
+                Y: =570
+                ZIndex: =12
+
+            Icon9_7 As icon.Add:
+                Color: =RGBA(0, 0, 0, 1)
+                Height: =50
+                Icon: =Icon.Transportation
+                Width: =50
+                X: =40
+                Y: =700
+                ZIndex: =13
+
+            Image11_5 As image:
+                Height: =53
+                Image: =po
+                Width: =50
+                X: =40
+                Y: =633
+                ZIndex: =14
+
+            Label20_24 As label:
+                FontWeight: =FontWeight.Semibold
+                Height: =50
+                Size: =18
+                Text: ="Patoor"
+                Width: =478
+                X: =133
+                Y: =570
+                ZIndex: =15
+
+            Label20_25 As label:
+                FontWeight: =FontWeight.Semibold
+                Height: =50
+                Size: =18
+                Text: ="Technopark"
+                Width: =478
+                X: =133
+                Y: =700
+                ZIndex: =16
+
+            Label20_17 As label:
+                FontWeight: =FontWeight.Semibold
+                Height: =58
+                Size: =16
+                Text: ="Vattiyoorkavu ... Mannamula ... Peroorkada"
+                Width: =467
+                X: =133
+                Y: =341
+                ZIndex: =17
+
+            Label20_18 As label:
+                Height: =44
+                Size: =14
+                Text: ="Bus Charge - Rs 20"
+                Width: =217
+                X: =136
+                Y: =382
+                ZIndex: =18
+
+            Label20_19 As label:
+                Align: =Align.Right
+                Height: =44
+                Size: =14
+                Text: |-
+                    ="Arrives at 8:00 PM"
+                Width: =206
+                X: =394
+                Y: =382
+                ZIndex: =19
+
+            Label20_21 As label:
+                FontWeight: =FontWeight.Semibold
+                Height: =58
+                Size: =16
+                Text: ="Vellayambalam ... Palayam ... Gen. Hospital"
+                Width: =467
+                X: =131
+                Y: =473
+                ZIndex: =20
+
+            Label20_22 As label:
+                Height: =44
+                Size: =14
+                Text: ="Bus Charge - Rs 15"
+                Width: =217
+                X: =134
+                Y: =514
+                ZIndex: =21
+
+            Label20_23 As label:
+                Align: =Align.Right
+                Height: =44
+                Size: =14
+                Text: |-
+                    ="Arrives at 8:15 PM"
+                Width: =206
+                X: =392
+                Y: =514
+                ZIndex: =22
+
+            Label20_26 As label:
+                Align: =Align.Right
+                Height: =44
+                Size: =14
+                Text: |-
+                    ="Arrives at 8:30 PM"
+                Width: =206
+                X: =392
+                Y: =642
+                ZIndex: =23
+
+            Label20_27 As label:
+                FontWeight: =FontWeight.Semibold
+                Height: =58
+                Size: =16
+                Text: ="Kazhakuttam ... Karaivattom ... UCEK"
+                Width: =467
+                X: =131
+                Y: =735
+                ZIndex: =24
+
+            Label20_28 As label:
+                Height: =44
+                Size: =14
+                Text: ="Bus Charge - Rs 10"
+                Width: =217
+                X: =134
+                Y: =776
+                ZIndex: =25
+
+            Label20_29 As label:
+                Align: =Align.Right
+                Height: =44
+                Size: =14
+                Text: |-
+                    ="Arrives at 8:45 PM"
+                Width: =206
+                X: =392
+                Y: =776
+                ZIndex: =26
+
+            Label7_6 As label:
+                DisabledColor: =RGBA(0, 0, 0, 1)
+                FontWeight: =FontWeight.Bold
+                Size: =21
+                Text: ="Contact Buss Staff"
+                Width: =300
+                X: =40
+                Y: =882
+                ZIndex: =27
+
+    Icon1_20 As icon.Add:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =50
+        Icon: =Icon.Information
+        Width: =50
+        X: =40
+        Y: =45
+        ZIndex: =4
+
+    Icon1_21 As icon.Add:
+        BorderColor: =RGBA(0, 0, 0, 1)
+        Color: =RGBA(0, 0, 0, 1)
+        Height: =50
+        Icon: =Icon.Reset
+        OnSelect: =Navigate(busRoutesPage, ScreenTransition.Fade)
+        Width: =50
+        X: =545
+        Y: =45
+        ZIndex: =5
+
+    Label20_30 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =58
+        Size: =16
+        Text: ="Pettah ... Chakkai ... Infosys"
+        Width: =467
+        X: =133
+        Y: =691
+        ZIndex: =6
+
+    Label20_31 As label:
+        Height: =44
+        Size: =14
+        Text: ="Bus Charge - Rs 15"
+        Width: =217
+        X: =136
+        Y: =732
+        ZIndex: =7
+
+    Image6_17 As image:
+        Height: =80
+        Image: ='3_3'
+        RadiusBottomLeft: =100
+        RadiusBottomRight: =100
+        RadiusTopLeft: =100
+        RadiusTopRight: =100
+        Width: =80
+        X: =40
+        Y: =1025
+        ZIndex: =9
+
+    Label18_12 As label:
+        FontWeight: =FontWeight.Semibold
+        Height: =26
+        Size: =18
+        Text: ="Parshuram Kumar"
+        Width: =485
+        X: =136
+        Y: =1039
+        ZIndex: =14
+
+    Label18_13 As label:
+        Color: =RGBA(69, 69, 69, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =28
+        Size: =14
+        Text: ="College Bus Conductor - Route 2"
+        Width: =485
+        X: =136
+        Y: =1065
+        ZIndex: =15
+
+    Image6_19 As image:
+        Fill: =RGBA(253, 237, 210, 1)
+        Height: =50
+        Image: =
+        RadiusBottomLeft: =100
+        RadiusBottomRight: =100
+        RadiusTopLeft: =100
+        RadiusTopRight: =100
+        Width: =50
+        X: =531
+        Y: =1036
+        ZIndex: =16
+
+    Icon6_10 As icon.Add:
+        Color: =RGBA(0, 0, 0, 1)
+        Height: =30
+        Icon: =Icon.Mail
+        OnSelect: =Navigate(emailTemplate, ScreenTransition.Fade)
+        Width: =50
+        X: =531
+        Y: =1046
+        ZIndex: =17
+
+    Rectangle6_4 As rectangle:
+        Fill: =RGBA(202, 202, 202, 1)
+        Height: =1
+        Width: =560
+        X: =40
+        Y: =945
+        ZIndex: =18
+
+    Image6_21 As image:
+        Fill: =RGBA(220, 252, 210, 1)
+        Height: =50
+        Image: =
+        RadiusBottomLeft: =100
+        RadiusBottomRight: =100
+        RadiusTopLeft: =100
+        RadiusTopRight: =100
+        Width: =50
+        X: =466
+        Y: =1036
+        ZIndex: =20
+
+    Icon6_12 As icon.Add:
+        Color: =RGBA(0, 0, 0, 1)
+        Height: =30
+        Icon: =Icon.Phone
+        OnSelect: |-
+            =Launch("tel:01162102020")
+        Width: =50
+        X: =466
+        Y: =1046
+        ZIndex: =22
+
