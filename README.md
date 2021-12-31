@@ -19,5 +19,3 @@ The files and folders present in the power application repository are as describ
 - **Entropy:** Volatile elements (like timestamps) are extracted to these files. This reduce noisy diffs in other files.
 - **Packages:** It contains a downloaded copy of external references, API Definition files, & component libaries.
 - **Src:** It includes the control & component files of the application, each app screen has a seprate **.fx.yaml** file.
-- **StableVersions:** This directory includes all the stable releases of the kiwi application, including source code.
-- **CanvasManifest.json:** The file include the header properties and the publish information of the power app.
