@@ -9,7 +9,7 @@ The project started in December 2021 as part of Microsoft's Future Ready Talent 
 - **Application:** PowerApps, Power Automate, Power BI
 - **Data:** Office365Users, Office365Outlook, SharePoint
 
-**Note:** Kiwi runs on all the operating systems & environments. The app is quick to install & is available for free use. The various features of the application have been extended using Azure. To use the application, the user shall have access to the Microsoft 365 Admin Centre with global or a billing administrator roles or shall possess an Azure subscription.
+**Note:** Kiwi runs on all the operating systems & environments. The app is quick to install & available for free use. The various features of the application have been extended using Azure. To use the application, the user shall have access to the Microsoft 365 Admin Centre with global or a billing administrator roles or shall possess an Azure subscription.
 
 ### Files and Folders:
 The files and folders present in the power application repository are as described:
