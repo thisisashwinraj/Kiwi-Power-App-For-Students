@@ -17,5 +17,5 @@ The files and folders present in the power application repository are as describ
 - **Connections:** This includes the files of all the connection instances that are used by the power application.
 - **DataSource:** This  includes all the storage group files that are integrated and used by the power application.
 - **Entropy:** Volatile elements (like timestamps) are extracted to these files. This reduce noisy diffs in other files.
-- **Packages:** It contains a downloaded copy of external references, API Definition files, & component libaries.
+- **Packages:** It contains downloaded copy of external references, API Definition files, and component libaries.
 - **Src:** It includes the control & component files of the application, each app screen has a seprate **.fx.yaml** file.
