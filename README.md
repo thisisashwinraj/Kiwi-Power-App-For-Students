@@ -11,7 +11,7 @@ The project started in December 2021 as part of Microsoft's Future Ready Talent 
 
 **Note:** Kiwi runs on all the operating systems & environments. The app is quick to install & available for free use. The various features of the application have been extended using Azure. To use the application, the user shall have access to the Microsoft 365 Admin Centre with global or a billing administrator roles or shall possess an Azure subscription.
 
-### Files and Folders:
+### Files and Folders
 The files and folders present in the power application repository are as described:
 - **Assets:** This contains all graphic images used in the application. Imgbot is used to optimize these graphics.
 - **Connections:** This includes the files of all the connection instances that are used by the power application.
@@ -19,3 +19,6 @@ The files and folders present in the power application repository are as describ
 - **Entropy:** Volatile elements (like timestamps) are extracted to these files. This reduce noisy diffs in other files.
 - **Packages:** It contains downloaded copy of external references, API Definition files, and component libaries.
 - **Src:** It includes the control & component files of the application, each app screen has a seprate **.fx.yaml** file.
+
+# User Installation and Source Code
+The application is supported across all mobile devices - iOS(iOS 14 or later) and Android(Android 9 or later). The application can also be run over web and windows(Windows 8.1 or later, depending on your plan). For privileges required to run model-driven apps on Power Apps Mobile app, see [Required privileges](https://docs.microsoft.com/en-us/dynamics365/mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets#required-privileges). To run the application
