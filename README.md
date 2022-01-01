@@ -13,14 +13,14 @@ The project started in December 2021 as part of Microsoft's Future Ready Talent 
 
 ### Files and Folders
 The files and folders present in the power application repository are as described:
-- **Assets:** This contains all graphic images used in the application. Imgbot is used to optimize these graphics.
-- **Connections:** This includes the files of all the connection instances that are used by the power application.
-- **DataSource:** This  includes all the storage group files that are integrated and used by the power application.
-- **Entropy:** Volatile elements (like timestamps) are extracted to these files. This reduce noisy diffs in other files.
-- **Packages:** It contains downloaded copy of external references, API Definition files, and component libaries.
-- **Src:** It includes the control & component files of the application, each app screen has a seprate **.fx.yaml** file.
+- **Assets:** This file contains graphic images used in the application. Imgbot is used to optimize the image files
+- **Connections:** This includes the files of various connection instances that are used by this power application
+- **DataSource:** This  includes all the storage group files that are integrated and used by this power application
+- **Entropy:** Volatile elements (like timestamps) are extracted to these files. This reduce noisy diffs in other files
+- **PackageFiles:** It contains downloaded copy of external reference, API Definition file, and component library
+- **Src:** It includes all control and component files of the application and each app screen has a seprate fx.yaml
 
 # User Installation and Source Code
-The application is supported across all mobile devices - iOS(iOS 14 or later) and Android(Android 9 or later). The app can also be run over web and windows(Windows 8.1 or later, depending on your plan). For privileges required to run model-driven apps on Power Apps Mobile app, see [required privileges](https://docs.microsoft.com/en-us/dynamics365/mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets#required-privileges).
+The application is supported across all mobile devices - iOS(iOS 14 or later) and Android(Android 9 or later). The app can also be run over web and windows(Windows 8.1 or later, depending on your plan). For privileges required to run model-driven apps on Power Apps Mobile app, see [required privileges](https://docs.microsoft.com/en-us/dynamics365/mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets#required-privileges). For iOS users, the PowerApps mobile app is also integrated with Siri shortcuts, which gives you the ability to add a shortcut to the Home screen, launch apps with Siri, and create new workflows. This feature requires PowerApps mobile version 3.20092.x or later.
 
-To run the application, first download PowerApps for mobile device. For iOS (iPad or iPhone), go to the [App Store](https://itunes.apple.com/app/powerapps/id1047318566?mt=8) and for Android, go to [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.msapps). Open Power Apps on your mobile device, and sign in by using your university issued Azure Active Directory credentials. After logging in, find and tap on the Kiwi logo to open the applications and signIn.
+To run the application, first download PowerApps for mobile device. For iOS (iPad or iPhone), go to the [App Store](https://itunes.apple.com/app/powerapps/id1047318566?mt=8) and for Android, go to [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.msapps). Open PowerApps on your mobile device, then sign in by using your university issued Azure Active Directory credentials. After logging in, find and tap on the Kiwi logo to open the applications and signIn.
