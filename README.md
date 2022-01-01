@@ -23,10 +23,8 @@ There are a number of app resources and settings that retain their original 'not
 # User Installation and Source Code
 The application is supported across all mobile devices - iOS (iOS 14 & later) and Android (Android 9 & later). This app can also be run over web and windows (Windows 8.1 or later, depending on your plan). For privileges required to run a model-driven apps on Power Apps Mobile app, see [required privileges](https://docs.microsoft.com/en-us/dynamics365/mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets#required-privileges). For iOS users, the Power Apps mobile app is also integrated with Siri shortcuts, which gives you the ability to add a shortcut to the Home screen, launch apps with Siri, and create new workflows. This feature requires iOS version 14 and Power Apps mobile version 3.20092.x or later.
 
-To run the application, first download PowerApps for mobile device. For iOS (iPad or iPhone), go to the [App Store](https://itunes.apple.com/app/powerapps/id1047318566?mt=8) and for Android, go to [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.msapps). Open Power Apps on your mobile device, then sign in by using your university issued Azure Active Directory credentials. After logging in, find and tap on the Kiwi logo to open the application and sign in.
-
 ### Directory Strudture
-Kiwi's development takes place on GitHub. Please submit any bugs that you may encounter to the issue tracker with a reproducible example demonstrating the problem in accordance with the issue template present in contributing folder
+Kiwi's development takes place on GitHub. Please submit any bugs that you may encounter to the issue tracker with a reproducible example demonstrating the problem in accordance with issue template present in contributing folder.
     
     ├── CanvasManifest
     ├── Assets                        // Contains image graphics and custom css
@@ -42,4 +40,8 @@ Kiwi's development takes place on GitHub. Please submit any bugs that you may en
     │   └── EditorState
     ├── ControlTemplates              // Information on the 3 base classes used
     └── ComponentReferences           // Contains the listing of all components
+
+To run the application, first download PowerApps for mobile device. For iOS (iPad or iPhone), go to the [App Store](https://itunes.apple.com/app/powerapps/id1047318566?mt=8) and for Android, go to [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.msapps). Open Power Apps on your mobile device, then sign in by using your university issued Azure Active Directory credentials. After logging in, find and tap on the Kiwi logo to open the application and sign in.
     
+# Contribution
+New contributors of all experience levels are welcome to contribute to this project. Some basic information about the project has been included in this README. For major changes, it is recommended that you open an issue first (in line with the issue template) to discuss what you would like to change, before proceeding with the pull request.
