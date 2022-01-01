@@ -38,8 +38,8 @@ Kiwi's development takes place on GitHub. Please submit any bugs that you may en
     │   ├── Wadl                      
     │   └── TableDefinitions          // Listing of integrated sharepoint lists
     ├── README.md                     
-    ├── Src                           // Contains all base level app information
+    ├── Src                           // Contains base level app info and datas
     │   └── EditorState
     ├── ControlTemplates              // Information on the 3 base classes used
-    └── ComponentReferences           // Contains the listings of all components
+    └── ComponentReferences           // Contains the listing of all components
     
