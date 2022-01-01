@@ -26,7 +26,7 @@ The application is supported across all mobile devices - iOS (iOS 14 & later) an
 To run the application, first download PowerApps for mobile device. For iOS (iPad or iPhone), go to the [App Store](https://itunes.apple.com/app/powerapps/id1047318566?mt=8) and for Android, go to [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.msapps). Open Power Apps on your mobile device, then sign in by using your university issued Azure Active Directory credentials. After logging in, find and tap on the Kiwi logo to open the application and sign in.
 
 ### Directory Strudture
-Kiwi's development takes place on GitHub. Please submit any bugs that you may encounter to the issue tracker with a reproducible example demonstrating the problem, in accordance with the issue template present in /.github folder.
+Kiwi's development takes place on GitHub. Please submit any bugs that you may encounter to the issue tracker with a reproducible example demonstrating the problem in accordance with the issue template present in contributing folder
     
     ├── CanvasManifest
     ├── Assets                        // Contains image graphics and custom css
