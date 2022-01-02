@@ -44,4 +44,62 @@ Kiwi's development takes place on GitHub. Please submit any bugs that you may en
 To run the application, first download PowerApps for mobile device. For iOS (iPad or iPhone), go to the [App Store](https://itunes.apple.com/app/powerapps/id1047318566?mt=8) and for Android, go to [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.msapps). Open Power Apps on your mobile device, then sign in by using your university issued Azure Active Directory credentials. After logging in, find and tap on the Kiwi logo to open the application and sign in.
     
 # Contribution
-New contributors of all experience levels are welcomed to contribute to this project. Some basic information about the project has been included in this README. For major changes, it is recommended that you open an issue first (in line with the issue template) to discuss what you would like to change, before proceeding with making a new pull request.
+New contributors of all experience levels are welcome to contribute to this project. Some basic information about the project has been included in this README. For major changes, it is recommended that you open an issue first (in line with the issue template) to discuss what you would like to change, before proceeding with making a new pull request.
+
+
+### Clone the repository
+To start contributing to this project, clone this repository into your local directory using the below code:
+```
+git clone https://github.com/ashwinraj-in/Kiwi.git
+```
+MsApp subdirectry contains the .msapp file of the application. Unpack the MsApp file of the lateststable release using the Power Apps Source File Pack and Unpack Utility. This is similar to the Solution Packager for Microsoft Dataverse. Install this tool by cloning the microsoft/PowerApps-Language-Tooling repository to your local directory:
+```
+git clone https://github.com/microsoft/PowerApps-Language-Tooling.git
+```
+The output files (ie, "yaml version") have a version number. During preview, the tool is not backwards compatible, so the version used to re-pack must match the version used to pack. Do keep a copy of the original msapp file for future use.
+
+Alternatively, you can also use the Microsoft Power Platform CLI, download the tool from here. To unpack a .msapp file:
+```
+pac canvas unpack --msapp FromApp.msapp --sources ToSourceFolder
+```
+
+### Generate the Source Code
+To be able to use the Power Apps Language Toolkit, you will need to install Visual Studio Code and .NET Core 3.1.x (x64). Navigate to the local directory of the cloned PowerApps Language Tool and run the build.cmd file, as an administrator. The command prompt shall open, show a few lines and then close automatically. After the build is complete, you can find a bin folder in this directory containing a debug directory that hosts the PASopa folder. Copy the path to this file <PASopa_Path>.
+
+Open the command prompt, as an administrator and navigate to the PASopa directory, using the command:
+```
+cd <PASopa_Path>
+```
+Create a new subdirectory wherein the source code of the application will be stored <New_Folder_Path>. Copy the path to this folder and the path of the .msapp file <MSapp_File_Path>. Run the following command to get yoursource code in the new subdirectory:
+```
+pasopa -unpack <MSapp_File_Path> <New_Folder_Path>
+```
+You can now open the new subdirectory, in any code editor of your choice and make the necessary changes.
+
+### Submitting a Pull Request
+Before opening a Pull Request, it is recommended to have a look at the full contributing page to make sure your code complies with the pull request guidelines. Please ensure that you satisfies the checklist before submitting your PR.
+
+Navigate to the directory and check the status of all files that were altered (red colour) by running the below code in Git Bash:
+```
+git status
+```
+Stage the files that are to be pushed into the PR. This can be done in two seprate ways:
+```
+git add .            // adds every single file that shows up red when running git status
+```
+```
+git add <filename>   // type in the particular file that you would like to add to the PR
+```
+
+Commit your changes and describe in brief the changes that you have made, using the command:
+```
+git commit -m "<commit_message>"
+```
+Push all of your updated work to this GitHub repo in the form of a Pull Request by running the following command:
+```
+git push origin main
+```
+Pull requests are reviewed by the team on a rolling basis. If we are slow to review, either the pull request needs some benchmarking, tinkering, convincing, etc. We ask for your understanding during the review process.
+
+# License and Project Status
+The app and all of its resources are distributed under Creative Commons Zero v1.0 Universal License. The app is compatible with all operating systems. The latest released stable version of Kiwi is v1.0.1, available to be installed on any local system for general use through the PowerApps mobile app or web platform. All new releases are logged in the stable versions directory.
