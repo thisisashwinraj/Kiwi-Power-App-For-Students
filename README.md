@@ -48,38 +48,38 @@ New contributors of all experience levels are welcome to contribute to this proj
 
 
 ### Clone the repository
-To start contributing to this project, clone this repository into your local directory using the below code:
+To start contributing to this project, clone this repository into your local system directory using the below git code:
 ```
 git clone https://github.com/ashwinraj-in/Kiwi.git
 ```
-MsApp subdirectry contains the .msapp file of the application. Unpack the MsApp file of the lateststable release using the Power Apps Source File Pack and Unpack Utility. This is similar to the Solution Packager for Microsoft Dataverse. Install this tool by cloning the microsoft/PowerApps-Language-Tooling repository to your local directory:
+MsApp directory contains the .msapp file of the application. Unpack the .msapp file of the latest stable release using the Power Apps Source File Pack and Unpack Utility. This is similar to the Solution Packager for Microsoft Dataverse. To install this tool, clone the microsoft/PowerApps-Language-Tooling repository to your local computer:
 ```
 git clone https://github.com/microsoft/PowerApps-Language-Tooling.git
 ```
-The output files (ie, "yaml version") have a version number. During preview, the tool is not backwards compatible, so the version used to re-pack must match the version used to pack. Do keep a copy of the original msapp file for future use.
+The output files (i.e., "yaml version") have a version number. During preview, the tool is not backwards compatible, so the version used to repack must match the version used to pack. Keep a copy of the original msapp file for future use.
 
-Alternatively, you can also use the Microsoft Power Platform CLI, download the tool from here. To unpack a .msapp file:
+Alternatively, you can also use the Microsoft PowerPlatform CLI, download the tool from here. To unpack the file:
 ```
 pac canvas unpack --msapp FromApp.msapp --sources ToSourceFolder
 ```
 
 ### Generate the Source Code
-To be able to use the Power Apps Language Toolkit, you will need to install Visual Studio Code and .NET Core 3.1.x (x64). Navigate to the local directory of the cloned PowerApps Language Tool and run the build.cmd file, as an administrator. The command prompt shall open, show a few lines and then close automatically. After the build is complete, you can find a bin folder in this directory containing a debug directory that hosts the PASopa folder. Copy the path to this file <PASopa_Path>.
+To be able to use the Power Apps Language Toolkit, you need to install Visual Studio Code and .NET Core 3.1.x (x64). Navigate to the local directory of the cloned PowerApps Language Tool and run the build.cmd file, as an admin. The command prompt shall open, show a few lines and then close automatically. After the build is complete, you can find a bin folder in this directory containing a debug directory that hosts the PASopa folder. Copy its path <PASopa_Path>.
 
-Open the command prompt, as an administrator and navigate to the PASopa directory, using the command:
+Open the command prompt window, as an administrator and navigate to the PASopa directory, using the command:
 ```
 cd <PASopa_Path>
 ```
-Create a new subdirectory wherein the source code of the application will be stored <New_Folder_Path>. Copy the path to this folder and the path of the .msapp file <MSapp_File_Path>. Run the following command to get yoursource code in the new subdirectory:
+Create a new subdirectory, where the source code of the application will be stored <New_Folder_Path>. Copy the path to this folder and .msapp file <MSapp_File_Path>. Run the following command to get he code in the new directory:
 ```
 pasopa -unpack <MSapp_File_Path> <New_Folder_Path>
 ```
-You can now open the new subdirectory, in any code editor of your choice and make the necessary changes.
+You can now open the new subdirectory, in any code editor of your choice (eg. Atom) and make the necessary changes.
 
 ### Submitting a Pull Request
-Before opening a Pull Request, it is recommended to have a look at the full contributing page to make sure your code complies with the pull request guidelines. Please ensure that you satisfies the checklist before submitting your PR.
+Before opening a Pull Request, it is recommended to have a look at the full contributing page to make sure your code complies with all the pull request guidelines. Please ensure that you satisfy the checklist before submitting your PR.
 
-Navigate to the directory and check the status of all files that were altered (red colour) by running the below code in Git Bash:
+Navigate to the directory and check status of all files that were altered (red) by running the below code in Git Bash:
 ```
 git status
 ```
