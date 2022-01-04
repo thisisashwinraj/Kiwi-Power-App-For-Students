@@ -91,7 +91,7 @@ git add .            // adds every single file that shows up red when running gi
 git add <filename>   // type in the particular file that you would like to add to the PR
 ```
 
-Commit all your changes that you made and describe in brief the changes that you have made, using this command:
+Commit all the changes that you've made & describe in brief the changes that you have made, using this command:
 ```
 git commit -m "<commit_message>"
 ```
@@ -99,7 +99,7 @@ Push all of your updated work into this GitHub repo in the form of a Pull Reques
 ```
 git push origin main
 ```
-Pull requests are reviewed by the team on a rolling basis. If the team is slow to review your PR, either the pull request needs some benchmarking, tinkering, convincing, etc. We ask you for your understanding during the review process.
+Pull requests are reviewed by the team on a rolling basis. If the team is slow to review your PR, either the pull request needs some benchmarking, tinkering, convincing, etc. We ask you for your understanding during this review process.
 
 # License and Project Status
 The Kiwi app and all of its resources are distributed under Creative Commons Zero v1.0 Universal License. The app is compatible with all operating systems. The latest released stable version of Kiwi is v1.0.1, available to be installed on any local system for general use through apps or web platform. All new releases are logged in the ~/Stable Versions.
