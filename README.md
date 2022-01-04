@@ -48,33 +48,33 @@ New contributors of all experience levels are welcome to contribute to this proj
 
 
 ### Clone the repository
-To start contributing to this project, clone this repository into your local system directory using the below git code:
+To start contributing to the project, clone the repository into your local system subdirectory using the below git code:
 ```
 git clone https://github.com/ashwinraj-in/Kiwi.git
 ```
-MsApp directory contains the .msapp file of the application. Unpack the .msapp file of the latest stable release using the Power Apps Source File Pack and Unpack Utility. This is similar to the Solution Packager for Microsoft Dataverse. To install this tool, clone the microsoft/PowerApps-Language-Tooling repository to your local computer:
+MsApp directory contains the .msapp file of the application. Unpack the .msapp file of the latest stable release using the Power Apps Source File Pack and Unpack Utility. This is similar to the Solution Packager for Microsoft Dataverse. To install this tool to your system, clone the microsoft/PowerApps-Language-Tooling to your local computer:
 ```
 git clone https://github.com/microsoft/PowerApps-Language-Tooling.git
 ```
-The output files (i.e., "yaml version") have a version number. During preview, the tool is not backwards compatible, so the version used to repack must match the version used to pack. Keep a copy of the original msapp file for future use.
+The output files (i.e., ".yaml version") have a version number. During preview, the tool is not backwards compatible, so the version used to repack must match the version used to pack. Keep a copy of the original msapp file for future use.
 
-Alternatively, you can also use the Microsoft PowerPlatform CLI, download the tool from here. To unpack the file:
+Alternatively, you can also use the Microsoft Power Platform CLI, download this tool from here. To unpack .msapp file:
 ```
 pac canvas unpack --msapp FromApp.msapp --sources ToSourceFolder
 ```
 
 ### Generate the Source Code
-To be able to use the Power Apps Language Toolkit, you need to install Visual Studio Code and .NET Core 3.1.x (x64). Navigate to the local directory of the cloned PowerApps Language Tool and run the build.cmd file, as an admin. The command prompt shall open, show a few lines and then close automatically. After the build is complete, you can find a bin folder in this directory containing a debug directory that hosts the PASopa folder. Copy its path <PASopa_Path>.
+To be able to use the Power Apps Language Toolkit, you need to install Visual Studio Code and .NET Core 3.1.x (x64). Navigate to the local directory of the cloned PowerApps Language Tool and run the build.cmd file, as an admin. The command prompt shall open, show a few lines and then close automatically. After the build is complete, you can find a bin folder in this directory containing a debug directory that hosts the PASopa folder. Copy its path <PASopa_Path>
 
-Open the command prompt window, as an administrator and navigate to the PASopa directory, using the command:
+Open the command prompt window as an administrator, and navigate to the PASopa directory, using this command:
 ```
 cd <PASopa_Path>
 ```
-Create a new subdirectory, where the source code of the application will be stored <New_Folder_Path>. Copy the path to this folder and .msapp file <MSapp_File_Path>. Run the following command to get he code in the new directory:
+Create a new subdirectory, where in the source code of the application will be stored <New_Folder_Path>. Copy the path to this folder and .msapp file <MSapp_File_Path>. Run this  command to get the code in the new directory:
 ```
 pasopa -unpack <MSapp_File_Path> <New_Folder_Path>
 ```
-You can now open the new subdirectory, in any code editor of your choice (eg. Atom) and make the necessary changes.
+You can now open this subdirectory, in any code editor of your choice (eg. Atom) and make the necessary changes.
 
 ### Submitting a Pull Request
 Before opening a Pull Request, it is recommended to have a look at the full contributing page to make sure your code complies with all the pull request guidelines. Please ensure that you satisfy the checklist before submitting your PR.
@@ -83,7 +83,7 @@ Navigate to the directory and check status of all files that were altered (red) 
 ```
 git status
 ```
-Stage the files that are to be pushed into the PR. This can be done in two seprate ways:
+Stage files that are to be pushed into your PR. This can be done in two ways - stage all or some files:
 ```
 git add .            // adds every single file that shows up red when running git status
 ```
@@ -91,15 +91,15 @@ git add .            // adds every single file that shows up red when running gi
 git add <filename>   // type in the particular file that you would like to add to the PR
 ```
 
-Commit your changes and describe in brief the changes that you have made, using the command:
+Commit the changes you made and describe in brief the changes that you have made, using the command:
 ```
 git commit -m "<commit_message>"
 ```
-Push all of your updated work to this GitHub repo in the form of a Pull Request by running the following command:
+Push all of your updated work into this GitHub repo in the form of a Pull Request by running the following command:
 ```
 git push origin main
 ```
-Pull requests are reviewed by the team on a rolling basis. If we are slow to review, either the pull request needs some benchmarking, tinkering, convincing, etc. We ask for your understanding during the review process.
+Pull requests are reviewed by the team on a rolling basis. If the team is slow to review your PR, either the pull request needs some benchmarking, tinkering, convincing, etc or . We ask for your understanding during the review process.
 
 # License and Project Status
-The app and all of its resources are distributed under Creative Commons Zero v1.0 Universal License. The app is compatible with all operating systems. The latest released stable version of Kiwi is v1.0.1, available to be installed on any local system for general use through the PowerApps mobile app or web platform. All new releases are logged in the stable versions directory.
+The Kiwi app and all of its resources are distributed under Creative Commons Zero v1.0 Universal License. The app is compatible with all operating systems. The latest released stable version of Kiwi is v1.0.1, available to be installed on any local system for general use through app or web platform. All new releases are logged in the ~/stableVersions.
