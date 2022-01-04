@@ -52,7 +52,7 @@ To start contributing to the project, clone the repository into your local syste
 ```
 git clone https://github.com/ashwinraj-in/Kiwi.git
 ```
-MsApp directory contains the .msapp file of the application. Unpack the .msapp file of the latest stable release using the Power Apps Source File Pack and Unpack Utility. This is similar to the Solution Packager for Microsoft Dataverse. To install this tool to your system, clone the microsoft/PowerApps-Language-Tooling to your local computer:
+MsApp directory contains the .msapp file of the application. Unpack the .msapp file of the latest stable release using the Power Apps Source File Pack and Unpack Utility. This is similar to the Solution Packager for Microsoft Dataverse. To install this tool to your system, clone the microsoft/PowerApps-Language-Tooling to your local computer system:
 ```
 git clone https://github.com/microsoft/PowerApps-Language-Tooling.git
 ```
@@ -77,13 +77,13 @@ pasopa -unpack <MSapp_File_Path> <New_Folder_Path>
 You can now open this subdirectory, in any code editor of your choice (eg. Sublime) and make the necessary changes.
 
 ### Submitting a Pull Request
-Before opening a Pull Request, it is recommended to have a look at the full contributing page to make sure your code complies with all the pull request guidelines. Please ensure that you satisfy the checklist before submitting your PR.
+Before opening a Pull Request, it is recommended to have a look at the full contributing page to make sure your code complies with all the pull request guidelines. Please ensure that you satisfy the ~/checklist before submitting your PR.
 
-Navigate to this directory and check status of all files that were altered (red) by running the below code in Git Bash:
+Navigate to this subdirectory & check status of all files that were altered (red) by running the below code in Git Bash:
 ```
 git status
 ```
-Stage all files that are to be pushed into your pull request. This can be done in two ways - stage all or some files:
+Stage all the files that are to be pushed into your pull request. This can be done in two ways - stage all or some files:
 ```
 git add .            // adds every single file that shows up red when running git status
 ```
@@ -91,7 +91,7 @@ git add .            // adds every single file that shows up red when running gi
 git add <filename>   // type in the particular file that you would like to add to the PR
 ```
 
-Commit all the changes that you made and describe in brief the changes that you have made, using the command:
+Commit all the changes that you made and describe in brief the changes that you have made, using this command:
 ```
 git commit -m "<commit_message>"
 ```
@@ -102,4 +102,4 @@ git push origin main
 Pull requests are reviewed by the team on a rolling basis. If the team is slow to review your PR, either the pull request needs some benchmarking, tinkering, convincing, etc. We ask you for your understanding during the review process.
 
 # License and Project Status
-The Kiwi app and all of its resources are distributed under Creative Commons Zero v1.0 Universal License. The app is compatible with all operating systems. The latest released stable version of Kiwi is v1.0.1, available to be installed on any local system for general use through apps or web platform. All new releases are logged in the ~/stableVersions.
+The Kiwi app and all of its resources are distributed under Creative Commons Zero v1.0 Universal License. The app is compatible with all operating systems. The latest released stable version of Kiwi is v1.0.1, available to be installed on any local system for general use through apps or web platform. All new releases are logged in the ~/StableVersions.
