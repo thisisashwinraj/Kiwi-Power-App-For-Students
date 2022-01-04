@@ -64,7 +64,7 @@ pac canvas unpack --msapp FromApp.msapp --sources ToSourceFolder
 ```
 
 ### Generate the Source Code
-To be able to use the Power Apps Language Toolkit, you need to install Visual Studio Code and .NET Core 3.1.x (x64). Navigate to the local directory of the cloned PowerApps Language Tool and run the build.cmd file, as an admin. The command prompt shall open, show a few lines and then close automatically. After the build is complete, you can find a bin folder in this directory containing a debug directory that hosts the PASopa folder. Copy its path <PASopa_Path>
+To be able to use the Power Apps Language Toolkit, you need to install Visual Studio Code and .NET Core 3.1.x (x64). Navigate to the local directory of the cloned Power Apps Language Tool and run the build.cmd file, as an admin. The command prompt shall open, show a few lines and then close automatically. After the build is complete, you can find a bin folder in this directory containing a debug directory that hosts the PASopa folder. Copy its path <PASopa_Path>
 
 Open the command prompt window as an administrator, and navigate to the PASopa directory, using this command:
 ```
@@ -83,7 +83,7 @@ Navigate to this subdirectory & check status of all files that were altered (red
 ```
 git status
 ```
-Stage all the files that are to be pushed into your pull request. This can be done in two ways - stage all or some files:
+Stage all your files that are to be pushed into your pull request. This can be done in two ways - stage all or some files:
 ```
 git add .            // adds every single file that shows up red when running git status
 ```
@@ -102,4 +102,4 @@ git push origin main
 Pull requests are reviewed by the team on a rolling basis. If the team is slow to review your PR, either the pull request needs some benchmarking, tinkering, convincing, etc. We ask you for your understanding during the review process.
 
 # License and Project Status
-The Kiwi app and all of its resources are distributed under Creative Commons Zero v1.0 Universal License. The app is compatible with all operating systems. The latest released stable version of Kiwi is v1.0.1, available to be installed on any local system for general use through apps or web platform. All new releases are logged in the ~/StableVersions.
+The Kiwi app and all of its resources are distributed under Creative Commons Zero v1.0 Universal License. The app is compatible with all operating systems. The latest released stable version of Kiwi is v1.0.1, available to be installed on any local system for general use through apps or web platform. All new releases are logged in the ~/Stable Versions.
