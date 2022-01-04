@@ -52,7 +52,7 @@ To start contributing to the project, clone the repository into your local syste
 ```
 git clone https://github.com/ashwinraj-in/Kiwi.git
 ```
-MsApp directory contains the .msapp file of the application. Unpack the .msapp file of the latest stable release using the Power Apps Source File Pack and Unpack Utility. This is similar to the Solution Packager for Microsoft Dataverse. To install this tool to your system, clone the microsoft/PowerApps-Language-Tooling to your local computer system:
+MsApp directory contains the .msapp file of the application. Unpack the .msapp file of the latest stable release using the Power Apps Source File Pack and un-pack Utility. This is similar to the Solution Packager for Microsoft Dataverse. To install this tool to your system, clone the microsoft/PowerApps-Language-Tooling to your local computer system:
 ```
 git clone https://github.com/microsoft/PowerApps-Language-Tooling.git
 ```
@@ -64,7 +64,7 @@ pac canvas unpack --msapp FromApp.msapp --sources ToSourceFolder
 ```
 
 ### Generate the Source Code
-To be able to use the Power Apps Language Toolkit, you need to install Visual Studio Code and .NET Core 3.1.x (x64). Navigate to the local directory of the cloned Power Apps Language Tool and run the build.cmd file, as an admin. The command prompt shall open, show a few lines and then close automatically. After the build is complete, you can find a bin folder in this directory containing a debug directory that hosts the PASopa folder. Copy its path <PASopa_Path>
+To be able to use this Power Apps Language Toolkit, you need to install Visual Studio Code and .NET Core 3.1.x (x64). Navigate to the local directory of the cloned Power Apps Language Tool and run the build.cmd file, as an admin. The command prompt shall open, show a few lines and then close automatically. After the build is complete, you can find a bin folder in this directory containing a debug directory that hosts the PASopa folder. Copy its path <PASopa_Path>
 
 Open the command prompt window as an administrator, and navigate to the PASopa directory, using this command:
 ```
@@ -91,7 +91,7 @@ git add .            // adds every single file that shows up red when running gi
 git add <filename>   // type in the particular file that you would like to add to the PR
 ```
 
-Commit all the changes that you made and describe in brief the changes that you have made, using this command:
+Commit all your changes that you made and describe in brief the changes that you have made, using this command:
 ```
 git commit -m "<commit_message>"
 ```
