@@ -3,7 +3,7 @@ Kiwi is an application integrated with power automate, sharepoint and other azur
 
 This project started in December 2021 as part of Microsoft's Future Ready Talent program. All app resources and pull requests are maintained and reviewed by a team of volunteers. Learn more about the features of Kiwi app v1.0.1 here.
 
-# Subdirectories and Constraints
+# SubDirectories and Constraints
 
 ### App Dependencies:
 - **Application:** PowerApps, Power Automate, Power BI
@@ -43,7 +43,7 @@ Kiwi's development takes place on GitHub. Please submit any bugs that you may en
 
 To run the application, first download PowerApps for mobile device. For iOS (iPad or iPhone), go to the [App Store](https://itunes.apple.com/app/powerapps/id1047318566?mt=8) and for Android, go to [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.msapps). Open Power Apps on your mobile device, then sign in by using your university issued Azure Active Directory credentials. After logging in, find and tap on the Kiwi logo to open the application and sign in.
     
-# Contribution
+# Contribution Guidelines and Usage
 New contributors of all experience levels are welcome to contribute to this project. Some basic information about the project has been included in this README. For major changes, it is recommended that you open an issue first (in line with the issue template) to discuss what you would like to change, before proceeding with making a new pull request.
 
 
