@@ -64,7 +64,7 @@ pac canvas unpack --msapp FromApp.msapp --sources ToSourceFolder
 ```
 
 ### Generate the Source Code
-To be able to use this Power Apps Language Toolkit, you need to install Visual Studio Code and .NET Core 3.1.x (x64). Navigate to the local directory of the cloned Power Apps Language Tool and run the build.cmd file, as an admin. The command prompt shall open, show a few lines and then close automatically. After the build is complete, you can find a bin folder in this directory containing a debug directory that hosts the PASopa folder. Copy its path <PASopa_Path>
+To be able to use this Power Apps Language Toolkit, you need to install the VisualStudio Code and .NET Core 3.1(x64). Navigate to the local directory of the cloned Power Apps Language Tool and run the build.cmd file, as an admin. The command prompt shall open, show a few lines and then close automatically. After the build is complete, you can find a bin folder in this directory containing a debug directory that hosts the PASopa folder. Copy its path <PASopa_Path>
 
 Open the command prompt window as an administrator, and navigate to the PASopa directory, using this command:
 ```
