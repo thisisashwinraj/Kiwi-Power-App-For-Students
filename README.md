@@ -1,7 +1,7 @@
 # Kiwi - Power Application for Students
 Kiwi is an application integrated with power automate, sharepoint and other azure services, for students to access all information pertaining to their academics at one place. This application will serve as a one stop destination for all the student services, above and beyond. The project is licensed under the Creative Commons Zero v1.0 Universal License.
 
-This project started in December 2021 as part of Microsoft's Future Ready Talent program. All app resources and pull requests are maintained and reviewed by a team of volunteers. Learn more about the features of Kiwi app v1.0.1 here.
+This project started in December 2021 as part of the Microsoft's Future Ready Talent program. App resources and pull requests are maintained and reviewed by a team of volunteers. Learn more about the features of Kiwi app v1.0.1 here.
 
 # SubDirectories and Constraints
 
