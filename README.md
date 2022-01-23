@@ -12,7 +12,7 @@ This project started in December 2021 as part of the Microsoft's Future Ready Ta
 **Note:** Kiwi app runs on all operating system and environments. This app is quick to install and is available for free use. The various features of the application have been extended using Azure. To use the application, user shall have access to the Microsoft 365 Admin Centre with a global or a billing administrator roles or shall possess an Azure subscription
 
 ### Files and Folders
-There are a number of app resources, and settings that retain their original 'not-meant-for-humans treatment', and are not intended to be edited outside of the Power Apps Studio.  The full directory's structure and how to deal with merge conflicts in other files is outlined in this GitHub README. The subdirectories critical to the application are as described
+There are a number of app resources and settings that retain their original 'not-meant-for-humans treatment' and are not intended to be edited outside of the Power Apps Studio.  The full directory's structure and how to deal with merge conflicts in other files is outlined in this GitHub README. The subdirectories critical to the application are as described
 - **Assets:** This file contains graphic images used in the application. Imgbot is used to optimize the image files.
 - **Connections:** This includes the files of various connection instances that are used by this power application.
 - **DataSource:** This  includes all the storage group files that are integrated and used by this power application.
