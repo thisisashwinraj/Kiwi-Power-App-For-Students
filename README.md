@@ -79,7 +79,7 @@ pasopa -unpack <MSapp_File_Path> <New_Folder_Path>
 You can now open this subdirectory, in any code editor of your choice (eg. [Sublime](https://www.sublimetext.com/)) and make the necessary changes.
 
 ### Submitting a Pull Request
-Before opening a Pull Request, it is recommended to have a look at the full contributing page to make sure your code complies with all the pull request guidelines. Please ensure that you satisfy the ~/checklist before submitting your PR.
+Before opening a Pull Request, it is recommended to have a look at the full contributing page to make sure your code complies with all the pull request guidelines. Please ensure that you satisfy the [~/checklist](https://github.com/ashwinraj-in/Kiwi/tree/main/Template%20Files/PULL_REQUEST_TEMPLATE) before submitting your PR.
 
 Navigate to this subdirectory & check status of all files that were altered (red) by running the below code in Git Bash:
 ```
