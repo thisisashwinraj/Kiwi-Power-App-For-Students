@@ -9,7 +9,7 @@ This project started in December 2021 as part of the Microsoft's [Future Ready T
 - **Application:** PowerApps, Power Automate, Power BI
 - **Data:** Office365Users, Office365Outlook, SharePoint
 
-**Note:** Kiwi app runs on all operating system and environments. This app is quick to install and is available for free use. The various features of the application have been extended using Azure. To use the application, user shall have access to the Microsoft 365 Admin Centre with a global or a billing administrator roles or shall possess an Azure subscription
+**Note:** Kiwi app runs on all operating system and environments. This app is quick to install and is available for free use. The various features of the application have been extended using Azure. To use the application, user shall have access to the [Microsoft 365 Admin Centre](https://www.microsoft.com/en-in/microsoft-365/business/office-365-administration) with a global or a billing administrator roles or shall possess an Azure subscription
 
 ### Files and Folders
 There are a number of app resources, and settings that retain their original 'not-meant-for-humans treatment' and are not intended to be edited outside of the Power Apps Studio.  The full directory's structure and how to deal with merge conflicts in other files is outlined in this GitHub README. The subdirectories critical to the application are as described
