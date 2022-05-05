@@ -10,7 +10,7 @@
 
 # Each line is a file pattern followed by one or more owners.
 
-.github/CODEOWNERS  @thisashwinraj
+.github/CODEOWNERS  @thisisashwinraj
 
 # Build related files
 src  @thisisashwinraj
