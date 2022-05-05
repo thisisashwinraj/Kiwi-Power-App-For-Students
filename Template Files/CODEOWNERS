@@ -10,8 +10,8 @@
 
 # Each line is a file pattern followed by one or more owners.
 
-.github/CODEOWNERS  @ashwinraj-in
+.github/CODEOWNERS  @thisashwinraj
 
 # Build related files
-src  @ashwinraj-in
-packageFiles  @ashwinraj-in
+src  @thisisashwinraj
+packageFiles  @thisisashwinraj
