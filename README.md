@@ -22,7 +22,7 @@ There are a number of app resources, and settings that retain their original 'no
 
 All relevant updates and stable versions are made available in the ~/stableVersion sub-directory. Some subdirectories may be sensitive for the project and may trigger review requests, when pull requests touch these files. Github handles with commit rights made available in the [~/Template Files/CODEOWNERS](https://github.com/thisisashwinraj/Kiwi/blob/main/Template%20Files/CODEOWNERS) are responsible for reviewing such changes
 
-![](https://github.com/ashwinraj-in/Kiwi/blob/main/Assets/kiwiAppReadme.png)
+![](https://github.com/thisisashwinraj/Kiwi/blob/main/Assets/kiwiAppReadme.png)
 
 # User Installation and Source Code
 The application is supported across all mobile devices - iOS (iOS 14 & later) and Android (Android 9 & later). This app can also be run over web and windows (Windows 8.1 or later, depending on your plan). For privileges required to run a model-driven apps on Power Apps Mobile app, see [required privileges](https://docs.microsoft.com/en-us/dynamics365/mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets#required-privileges). For iOS users, the Power Apps mobile app is also integrated with Siri shortcuts, which gives you the ability to add a shortcut to the Home screen, launch apps with Siri, and create new workflows. This feature requires iOS version 14 and Power Apps mobile version 3.20092.x or later.
