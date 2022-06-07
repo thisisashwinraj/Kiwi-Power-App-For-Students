@@ -1,7 +1,7 @@
 # Kiwi - Power Application for Students
 Kiwi is an application integrated with power automate, sharepoint, and other azure services, for students to access all information pertaining to their academics at one place. This application will serve as a one stop destination for all the student services, above and beyond. The project is licensed under the [Creative Commons Zero v1.0 Universal License](https://github.com/thisisashwinraj/Kiwi-Power-Application/blob/main/LICENSE).
 
-This project started in December 2021 as part of the Microsoft's [Future Ready Talent program](https://futurereadytalent.in/). App resources and pull requests are maintained and reviewed by a team of volunteers. Learn more about the features of Kiwi app v1.0.1 [here](https://github.com/thisisashwinraj/Kiwi#files-and-folders).
+This project started in December 2021 as part of the Microsoft's [Future Ready Talent program](https://futurereadytalent.in/). App resources and pull requests are maintained and reviewed by a team of volunteers. Learn more about the features of Kiwi app v1.0.1 [here](https://github.com/thisisashwinraj/Kiwi-Power-Application#files-and-folders).
 
 # SubDirectories and Constraints
 
@@ -20,9 +20,9 @@ There are a number of app resources, and settings that retain their original 'no
 - **PackageFiles:** It contains downloaded copy of external references, API Definition file and component library.
 - **Src:** It includes all control & component files of the application & each app screen has a seprate .fx.yaml file.
 
-All relevant updates and stable versions are made available in the ~/stableVersion sub-directory. Some subdirectories may be sensitive for the project and may trigger review requests, when pull requests touch these files. Github handles with commit rights made available in the [~/Template Files/CODEOWNERS](https://github.com/thisisashwinraj/Kiwi/blob/main/Template%20Files/CODEOWNERS) are responsible for reviewing such changes
+All relevant updates and stable versions are made available in the ~/stableVersion sub-directory. Some subdirectories may be sensitive for the project and may trigger review requests, when pull requests touch these files. Github handles with commit rights made available in the [~/Template Files/CODEOWNERS](https://github.com/thisisashwinraj/Kiwi-Power-Application/blob/main/Template%20Files/CODEOWNERS) are responsible for reviewing such changes
 
-![](https://github.com/thisisashwinraj/Kiwi/blob/main/Assets/kiwiAppReadme.png)
+![](https://github.com/thisisashwinraj/Kiwi-Power-Application/blob/main/Assets/kiwiAppReadme.png)
 
 # User Installation and Source Code
 The application is supported across all mobile devices - iOS (iOS 14 & later) and Android (Android 9 & later). This app can also be run over web and windows (Windows 8.1 or later, depending on your plan). For privileges required to run a model-driven apps on Power Apps Mobile app, see [required privileges](https://docs.microsoft.com/en-us/dynamics365/mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets#required-privileges). For iOS users, the Power Apps mobile app is also integrated with Siri shortcuts, which gives you the ability to add a shortcut to the Home screen, launch apps with Siri, and create new workflows. This feature requires iOS version 14 and Power Apps mobile version 3.20092.x or later.
@@ -81,7 +81,7 @@ pasopa -unpack <MSapp_File_Path> <New_Folder_Path>
 You can now open this subdirectory, in any code editor of your choice (eg. [Sublime](https://www.sublimetext.com/)) and make the necessary changes.
 
 ### Submitting a Pull Request
-Before opening a Pull Request, it is recommended to have a look at the full contributing page to make sure your code complies with all the pull request guidelines. Please ensure that you satisfy the [~/checklist](https://github.com/ashwinraj-in/Kiwi/tree/main/Template%20Files/PULL_REQUEST_TEMPLATE) before submitting your PR.
+Before opening a Pull Request, it is recommended to have a look at the full contributing page to make sure your code complies with all the pull request guidelines. Please ensure that you satisfy the [~/checklist](https://github.com/thisisashwinraj/Kiwi-Power-Application/tree/main/Template%20Files/PULL_REQUEST_TEMPLATE) before submitting your PR.
 
 Navigate to this subdirectory & check status of all files that were altered (red) by running the below code in Git Bash:
 ```
@@ -106,6 +106,6 @@ git push origin main
 Pull requests are reviewed by the team on a rolling basis. If the team is slow to review your PR, either the pull request needs some benchmarking, tinkering, convincing, etc. We ask you for your understanding during this review process.
 
 # License and Project Status
-The Kiwi app and all of its resources are distributed under [Creative Commons Zero v1.0 Universal License](https://github.com/ashwinraj-in/Kiwi/blob/main/LICENSE). The app is compatible with all operating systems. The latest released stable version of Kiwi is v1.0.1, available to be installed on any local system for general use through apps or web platform. All new releases are logged in the [~/Stable Versions](https://github.com/ashwinraj-in/Kiwi/tree/main/stableVersions).
+The Kiwi app and all of its resources are distributed under [Creative Commons Zero v1.0 Universal License](https://github.com/thisisashwinraj/Kiwi-Power-Application/blob/main/LICENSE). The app is compatible with all operating systems. The latest released stable version of Kiwi is v1.0.1, available to be installed on any local system for general use through apps or web platform. All new releases are logged in the [~/Stable Versions](https://github.com/thisisashwinraj/Kiwi-Power-Application/tree/main/stableVersions).
 
 Upcoming update will include more features, support for admin logIn and chat support through [power virtual agent](https://powervirtualagents.microsoft.com/en-us/).
