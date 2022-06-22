@@ -20,7 +20,7 @@ There are a number of app resources, and settings that retain their original 'no
 - **PackageFiles:** It contains downloaded copy of external references, API Definition file and component library.
 - **Src:** It includes all control & component files of the application & each app screen has a seprate .fx.yaml file.
 
-All relevant updates and stable versions are made available in the ~/stableVersion sub-directory. Some subdirectories may be sensitive for the project and may trigger review requests, when pull requests touch these files. Github handles with commit rights made available in the [~/Template Files/CODEOWNERS](https://github.com/thisisashwinraj/Kiwi-Power-Application/blob/main/Template%20Files/CODEOWNERS) are responsible for reviewing such changes
+All relevant updates and stable versions are made available in the [~/stableVersion](https://github.com/thisisashwinraj/Kiwi-Power-Application/tree/main/stableVersions) sub-directory. Some subdirectories may be sensitive for the project and may trigger review requests, when pull requests touch these files. Github handles with commit rights made available in the [~/Template Files/CODEOWNERS](https://github.com/thisisashwinraj/Kiwi-Power-Application/blob/main/Template%20Files/CODEOWNERS) are responsible for reviewing such changes
 
 ![](https://github.com/thisisashwinraj/Kiwi-Power-Application/blob/main/Assets/kiwiAppReadme.png)
 
