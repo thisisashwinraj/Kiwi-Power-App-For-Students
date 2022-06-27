@@ -14,11 +14,11 @@ This project started in December 2021 as part of the Microsoft's [Future Ready T
 ### Files and Folders
 There are a number of app resources, and settings that retain their original 'not-meant-for-humans treatment' and are not intended to be edited outside of the Power Apps Studio.  The full directory's structure and how to deal with merge conflicts in other files is outlined in this GitHub README. The subdirectories critical to the application are as described
 - **Assets:** This directory contains graphic images used in the application. Imgbot is used to optimize the image files
-- **Connections:** This includes the files of various connection instances that are used by this power application.
-- **DataSource:** This  includes all the storage group files that are integrated and used by this power application.
-- **Entropy:** Volatile elements (like timestamps) are extracted to these files. This reduce noisy diffs in other files.
-- **PackageFiles:** It contains downloaded copy of external references, API Definition file and component library.
-- **Src:** It includes all control & component files of the application & each app screen has a seprate .fx.yaml file.
+- **Connections:** This includes the directories of various connection instances that are used by this power application
+- **DataSource:** This directory includes all storage group files, that are integrated and used by this power application
+- **Entropy:** Volatile elements (eg: timestamps) are extracted to these directories. This reduce noisy diffs in other files
+- **PackageFiles:** It contains the downloaded copies of external references, API Definition file, and component library
+- **Src:** It includes all control & component files of the application & each app screen has a seprate .fx.yaml directory
 
 All relevant updates and stable versions are made available in the [~/stableVersion](https://github.com/thisisashwinraj/Kiwi-Power-Application/tree/main/stableVersions) sub-directory. Some subdirectories may be sensitive for the project and may trigger review requests, when pull requests touch these files. Github handles with commit rights made available in the [~/Template Files/CODEOWNERS](https://github.com/thisisashwinraj/Kiwi-Power-Application/blob/main/Template%20Files/CODEOWNERS) are responsible for reviewing such changes
 
