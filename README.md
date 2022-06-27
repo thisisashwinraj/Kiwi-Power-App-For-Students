@@ -13,7 +13,7 @@ This project started in December 2021 as part of the Microsoft's [Future Ready T
 
 ### Files and Folders
 There are a number of app resources, and settings that retain their original 'not-meant-for-humans treatment' and are not intended to be edited outside of the Power Apps Studio.  The full directory's structure and how to deal with merge conflicts in other files is outlined in this GitHub README. The subdirectories critical to the application are as described
-- **Assets:** This directory contains graphic images used in the application. Imgbot is used to optimize the image files.
+- **Assets:** This directory contains graphic images used in the application. Imgbot is used to optimize an image files.
 - **Connections:** This includes the files of various connection instances that are used by this power application.
 - **DataSource:** This  includes all the storage group files that are integrated and used by this power application.
 - **Entropy:** Volatile elements (like timestamps) are extracted to these files. This reduce noisy diffs in other files.
