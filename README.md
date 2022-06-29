@@ -6,7 +6,7 @@ This project started in December 2021 as part of the Microsoft's [Future Ready T
 # SubDirectories and Constraints
 
 ### App Dependencies:
-- **Application:** PowerApps, Power Automate, Power BI (These front-end tools are part of Microsoft Power Platform)
+- **Application:** Power Apps, Power Automate, Power BI (These front-end tools are part of Microsoft Power Platform)
 - **Data:** Office365Users, Office365Outlook, SharePoint (These tools are used for building the back-end architecture)
 
 **Note:** Kiwi app runs on all operating system and environments. This app is quick to install and is available for free use. The various features of the application have been extended using Azure. To use the application, user shall have access to the [Microsoft 365 Admin Centre](https://www.microsoft.com/en-in/microsoft-365/business/office-365-administration) with a global or a [billing administrator](https://docs.microsoft.com/en-us/azure/cost-management-billing/manage/manage-billing-access) roles or shall possess an Azure subscription
