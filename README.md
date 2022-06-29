@@ -103,6 +103,6 @@ git push origin main
 Pull requests are reviewed by the team on a rolling basis. If the team is slow to review your PR either your pull request needs some benchmarking, tinkering, &/or convincing. We ask you for your understanding during this review process.
 
 # License and Project Status
-The Kiwi app, and all of its resources are distributed under [Creative Commons Zero v1.0 Universal License](https://github.com/thisisashwinraj/Kiwi-Power-Application/blob/main/LICENSE). This app is compatible with all Operating Systems. The latest released stable version of Kiwi is v1.0.1 & available to be installed on any local system for general use through the app, or the website. All new releases are logged in the [~/Stable Versions](https://github.com/thisisashwinraj/Kiwi-Power-Application/tree/main/stableVersions).
+The Kiwi app, and all of its resources are distributed under [Creative Commons Zero v1.0 Universal License](https://github.com/thisisashwinraj/Kiwi-Power-Application/blob/main/LICENSE). This app is compatible with all operating systems. The latest released stable version of Kiwi is v1.0.1 and available to be installed on any local system for general use through an app or the website. All new releases are logged in the [~/Stable Versions](https://github.com/thisisashwinraj/Kiwi-Power-Application/tree/main/stableVersions)
 
 Upcoming update will include more features, support for admin logIn and chat support through [power virtual agent](https://powervirtualagents.microsoft.com/en-us/).
