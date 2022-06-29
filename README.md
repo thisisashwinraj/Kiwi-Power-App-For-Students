@@ -44,16 +44,16 @@ Kiwi's development takes place on GitHub. Please submit any bugs that you may en
     ├── ControlTemplates              // Information on the 3 base classes used
     └── ComponentReferences           // Contains the listing of all components
 
-To run the application, first download PowerApps for mobile device. For iOS (iPad or iPhone), go to the [AppStore](https://itunes.apple.com/app/powerapps/id1047318566?mt=8), and for Android, go to [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.msapps). Open PowerApps on your mobile device & then signin by using your university issued Azure Active Directory credentials. After logging in, find and tap on the Kiwi logo to open the application and sign in.
+To run the application, first download PowerApps for mobile device. For iOS (iPad or iPhone), go to the [AppStore](https://itunes.apple.com/app/powerapps/id1047318566?mt=8), and for Android, go to [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.msapps). Open PowerApps on your mobile device & then signin by using your university issued Azure Active Directory credentials. After logging in, find and tap on the Kiwi logo to open the application, and sign in.
     
 # Contribution Guidelines and Usage
-New contributors of all experience levels are welcome to contribute to this project. Some basic information about the project have been included in this README. For major changes, it is recommended that you open an issue first (in line with the [issue template](https://github.com/ashwinraj-in/Kiwi/tree/main/Template%20Files/ISSUE_TEMPLATE)) to discuss what you would like to change, before proceeding with making a new Pull Request.
+New contributors of all experience levels are welcome to contribute to this project. Some basic information about the project have been included in this README. For major changes, it is recommended that you open an issue first (in line with the [issue template](https://github.com/ashwinraj-in/Kiwi/tree/main/Template%20Files/ISSUE_TEMPLATE)) to discuss what you would like to change, before proceeding with making a new pull request.
 
 To start contributing to the project, clone the repository into your local system subdirectory using the below git code:
 ```
 git clone https://github.com/ashwinraj-in/Kiwi.git
 ```
-MS App directory contains the .msapp file of the application. Un-pack the .msapp file of the latest stable release using the PowerApps Source File Pack, and Un-Pack Utility, which is similar to the [Solution Packager](https://docs.microsoft.com/en-us/power-platform/alm/solution-packager-tool) for [Microsoft Dataverse](https://powerplatform.microsoft.com/en-us/dataverse/). To install the tool to your system, clone the [microsoft/PowerApps-Language-Tooling](https://github.com/microsoft/PowerApps-Language-Tooling) into your local computer system:
+MS App directory contains the .msapp file of the application. Un-pack the .msapp file of the latest stable release using the PowerApps Source File Pack and Un-Pack Utility, which is similar to the [Solution Packager](https://docs.microsoft.com/en-us/power-platform/alm/solution-packager-tool) for [Microsoft Dataverse](https://powerplatform.microsoft.com/en-us/dataverse/). To install the tool to your system, clone the [microsoft/PowerApps-Language-Tooling](https://github.com/microsoft/PowerApps-Language-Tooling) into your local computer system:
 ```
 git clone https://github.com/microsoft/PowerApps-Language-Tooling.git
 ```
