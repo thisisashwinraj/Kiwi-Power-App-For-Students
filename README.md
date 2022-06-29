@@ -47,13 +47,13 @@ Kiwi's development takes place on GitHub. Please submit any bugs that you may en
 To run the application, first download PowerApps for mobile device. For iOS (iPad or iPhone), go to the [AppStore](https://itunes.apple.com/app/powerapps/id1047318566?mt=8), and for Android, go to [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.msapps). Open PowerApps on your mobile device & then signin by using your university issued Azure Active Directory credentials. After logging in, find and tap on the Kiwi logo to open the application, and sign in.
     
 # Contribution Guidelines and Usage
-New contributors of all experience levels are welcome to contribute to this project. Some basic information about the project have been included in this README. For major changes, it is recommended that you open an issue first (in line with the [issue template](https://github.com/ashwinraj-in/Kiwi/tree/main/Template%20Files/ISSUE_TEMPLATE)) to discuss what you would like to change, before proceeding with making a new pull request.
+New contributors, of all experience levels are welcome to contribute to this project. Some basic information about the project have been included in this README. For major changes, it is recommended that you open an issue first (in line with the [issue template](https://github.com/ashwinraj-in/Kiwi/tree/main/Template%20Files/ISSUE_TEMPLATE)) to discuss what you would like to change, before proceeding with making a new pull request.
 
 To start contributing to the project, clone the repository into your local system subdirectory using the below git code:
 ```
 git clone https://github.com/ashwinraj-in/Kiwi.git
 ```
-MS App directory contains the .msapp file of the application. Un-pack the .msapp file of the latest stable release using the PowerApps Source File Pack and Un-Pack Utility, which is similar to the [Solution Packager](https://docs.microsoft.com/en-us/power-platform/alm/solution-packager-tool) for [Microsoft Dataverse](https://powerplatform.microsoft.com/en-us/dataverse/). To install the tool to your system, clone the [microsoft/PowerApps-Language-Tooling](https://github.com/microsoft/PowerApps-Language-Tooling) into your local computer system:
+MS App directory contains the .msapp file of the application. Un-pack the msapp file of the latest stable release using the PowerApps Source File Pack and Un-Pack Utility, which is similar to the [Solution Packager](https://docs.microsoft.com/en-us/power-platform/alm/solution-packager-tool) for [Microsoft Dataverse](https://powerplatform.microsoft.com/en-us/dataverse/). To install the tool to your system, clone the [microsoft/PowerApps-Language-Tooling](https://github.com/microsoft/PowerApps-Language-Tooling) into your local computer system:
 ```
 git clone https://github.com/microsoft/PowerApps-Language-Tooling.git
 ```
@@ -100,9 +100,9 @@ Push all of your updated work into this GitHub repo in the form of a Pull Reques
 ```
 git push origin main
 ```
-Pull Requests are reviewed by the team on a rolling basis. If the team is slow to review your PR either your pull request needs some benchmarking, tinkering, &/or convincing. We ask you for your understanding during this review process.
+Pull requests are reviewed by the team on a rolling basis. If the team is slow to review your PR either your pull request needs some benchmarking, tinkering, &/or convincing. We ask you for your understanding during this review process.
 
 # License and Project Status
-The Kiwi app and all of its resources are distributed under [Creative Commons Zero v1.0 Universal License](https://github.com/thisisashwinraj/Kiwi-Power-Application/blob/main/LICENSE). The app is compatible with all operating systems. The latest released stable version of Kiwi is v1.0.1, available to be installed on any local system for general use through apps or web platform. All new releases are logged in the [~/Stable Versions](https://github.com/thisisashwinraj/Kiwi-Power-Application/tree/main/stableVersions).
+The Kiwi app and all of its resources are distributed under [Creative Commons Zero v1.0 Universal License](https://github.com/thisisashwinraj/Kiwi-Power-Application/blob/main/LICENSE). This app is compatible with all Operating Systems. The latest released stable version of Kiwi is v1.0.1, available to be installed on any local system for general use through the app, or the website. All new releases are logged in the [~/Stable Versions](https://github.com/thisisashwinraj/Kiwi-Power-Application/tree/main/stableVersions).
 
 Upcoming update will include more features, support for admin logIn and chat support through [power virtual agent](https://powervirtualagents.microsoft.com/en-us/).
