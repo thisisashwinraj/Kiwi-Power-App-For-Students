@@ -51,7 +51,7 @@ New contributors, of all experience levels are welcome to contribute to this pro
 
 To start contributing to the project, clone the repository into your local system subdirectory using the below git code:
 ```
-git clone https://github.com/ashwinraj-in/Kiwi.git
+git clone https://github.com/thisisashwinraj/Kiwi-Power-Application.git
 ```
 MS App directory contains the .msapp file of the application. Un-pack the msapp file of the latest stable release using the PowerApps Source File Pack and Un-Pack Utility, which is similar to the [Solution Packager](https://docs.microsoft.com/en-us/power-platform/alm/solution-packager-tool) for [Microsoft Dataverse](https://powerplatform.microsoft.com/en-us/dataverse/). To install the tool to your system, clone the [microsoft/PowerApps-Language-Tooling](https://github.com/microsoft/PowerApps-Language-Tooling) into your local computer system:
 ```
