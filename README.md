@@ -33,7 +33,6 @@ Kiwi's development takes place on GitHub. Please submit any bugs that you may en
     ├── Assets                        // Contains image graphics and custom css
     │   └── Images
     ├── Connections                   // Listing of all data sources in the app
-    ├── Data Sources
     ├── Entropy
     ├── Pkgs                          // Contains external reference components
     │   ├── Wadl                      
@@ -42,6 +41,7 @@ Kiwi's development takes place on GitHub. Please submit any bugs that you may en
     ├── Src                           // Contains base level app info and datas
     │   └── EditorState
     ├── ControlTemplates              // Information on the 3 base classes used
+    ├── Data Sources
     └── ComponentReferences           // Contains the listing of all components
 
 To run the application, first download PowerApps for mobile device. For iOS (iPad or iPhone), go to the [AppStore](https://itunes.apple.com/app/powerapps/id1047318566?mt=8), and for Android, go to [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.msapps). Open PowerApps on your mobile device & then signin by using your university issued Azure Active Directory credentials. After logging in, find and tap on the Kiwi logo to open the application, and sign in.
