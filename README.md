@@ -22,8 +22,6 @@ There are a number of app resources, and settings that retain their original 'no
 
 All relevant updates, and stable versions are made available in the [~/StableVersion](https://github.com/thisisashwinraj/Kiwi-Power-Application/tree/main/stableVersions) sub-directory. Some subdirectories may be sensitive for the project and may trigger review requests, when pull requests touch these files. GitHub handles with commit rights made available in the [~/Template Files/CODEOWNERS](https://github.com/thisisashwinraj/Kiwi-Power-Application/blob/main/Template%20Files/CODEOWNERS), are responsible for reviewing such changes
 
-![](https://github.com/thisisashwinraj/Kiwi-Power-Application/blob/main/Assets/kiwiDemo.gif)
-
 # User Installation and Source Code
 The application is supported across all mobile devices - iOS (iOS 14 & later) and Android (Android 9 & later). This app can also be run over web, and windows (Windows 8.1 or later, depending on your plan). For privileges required to run a model-driven apps on Power Apps Mobile app, see [required privileges](https://docs.microsoft.com/en-us/dynamics365/mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets#required-privileges). For iOS users, the Power Apps mobile app is also integrated with Siri shortcuts, which gives you the ability to add a shortcut to the Home Screen, launch apps with Siri, and create new workflows. This feature requires iOS version 14, and [Power Apps mobile version 3.20092.x](https://learn.microsoft.com/en-us/power-apps/mobile/run-powerapps-on-mobile) or later.
 
@@ -66,6 +64,8 @@ pac canvas unpack --msapp FromApp.msapp --sources ToSourceFolder
 
 ## Generate the Source Code
 To be able to use this Power Apps Language Toolkit, you need to install the [VisualStudio Code](https://code.visualstudio.com/) and [.NET Core 3.1(x64)](https://dotnet.microsoft.com/en-us/download/dotnet/3.1). Navigate to the local directory of the cloned Power Apps Language Tool, and run the build.cmd file, as an admin. The command prompt shall open, show a few lines and then close automatically. After the build is complete, you can find a bin folder in this directory containing a debug directory that hosts the PASopa folder. Copy its path <PASopa_Path>
+
+![](https://github.com/thisisashwinraj/Kiwi-Power-Application/blob/main/Assets/kiwiDemo.gif)
 
 Open the command prompt window as an administrator, and navigate to this PASopa directory, using this command:
 ```
