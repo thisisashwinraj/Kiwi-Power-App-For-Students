@@ -25,6 +25,8 @@ All relevant updates, and stable versions are made available in the [~/StableVer
 # User Installation and Source Code
 The application is supported across all mobile devices - iOS (iOS 14 & later) and Android (Android 9 & later). This app can also be run over web, and windows (Windows 8.1 or later, depending on your plan). For privileges required to run a model-driven apps on Power Apps Mobile app, see [required privileges](https://docs.microsoft.com/en-us/dynamics365/mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets#required-privileges). For iOS users, the Power Apps mobile app is also integrated with Siri shortcuts, which gives you the ability to add a shortcut to the Home Screen, launch apps with Siri, and create new workflows. This feature requires iOS version 14, and [Power Apps mobile version 3.20092.x](https://learn.microsoft.com/en-us/power-apps/mobile/run-powerapps-on-mobile) or later.
 
+![](https://github.com/thisisashwinraj/Kiwi-Power-Application/blob/main/Assets/Kiwi_MobileApp.png)
+
 Kiwi's development takes place on GitHub. Please submit any bugs that you may encounter to the issue tracker with a reproducible example, demonstrating the problem in accordance with the [issue template](https://github.com/thisisashwinraj/Kiwi-Power-Application/tree/main/Template%20Files/ISSUE_TEMPLATE) present in contributing files.
     
     ├── CanvasManifest
